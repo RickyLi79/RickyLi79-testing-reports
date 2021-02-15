@@ -1,0 +1,14 @@
+{
+  "description": "no `content-type`",
+  "tags": [
+    "valid.request"
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-accept-content-types": {},
+  "x-openapi-mark-quest-body-required": false
+}

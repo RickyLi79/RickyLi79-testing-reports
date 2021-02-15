@@ -1,0 +1,8 @@
+{
+  "responses": {
+    "default": {
+      "description": "unexpected error"
+    }
+  },
+  "x-oas-ver": 3
+}

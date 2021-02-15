@@ -1,0 +1,9 @@
+{
+  "description": "path parameter",
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

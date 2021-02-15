@@ -1,0 +1,13 @@
+{
+  "path": "/valid/request/body",
+  "method": "PATCH",
+  "headers": {
+    "host": "127.0.0.1:60043",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 11
+  },
+  "body": {
+    "value": 1
+  }
+}

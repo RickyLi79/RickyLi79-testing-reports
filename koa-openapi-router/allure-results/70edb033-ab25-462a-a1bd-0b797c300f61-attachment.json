@@ -1,0 +1,17 @@
+{
+  "controllerDir": "D:\\git\\koa-openapi-router\\allureTest\\suite\\controller",
+  "docsDir": "D:\\git\\koa-openapi-router\\allureTest\\suite\\docs",
+  "recursive": false,
+  "watcher": {
+    "enabled": false,
+    "interval": 2000
+  },
+  "validSchema": {
+    "request": true,
+    "reponse": true
+  },
+  "test": {
+    "enabled": true,
+    "controllerFileExt": ".ts"
+  }
+}

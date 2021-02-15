@@ -1,0 +1,8 @@
+{
+  "path": "/valid/response/header",
+  "method": "PATCH",
+  "headers": {
+    "host": "127.0.0.1:60167",
+    "accept-encoding": "gzip, deflate"
+  }
+}

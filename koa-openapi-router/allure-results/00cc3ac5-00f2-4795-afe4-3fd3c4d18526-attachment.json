@@ -1,0 +1,24 @@
+{
+  "description": "`response.header` optional, invalid",
+  "tags": [
+    "valid.response.header"
+  ],
+  "responses": {
+    "200": {
+      "description": "ok",
+      "headers": {
+        "x-reponse-header": {
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 5
+          }
+        }
+      }
+    },
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

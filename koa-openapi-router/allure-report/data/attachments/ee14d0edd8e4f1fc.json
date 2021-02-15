@@ -1,0 +1,8 @@
+{
+  "path": "/valid/request/query?q1=any",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:60105",
+    "accept-encoding": "gzip, deflate"
+  }
+}

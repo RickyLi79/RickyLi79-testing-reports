@@ -1,0 +1,14 @@
+{
+  "path": "/valid/request/body",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:60049",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 45
+  },
+  "body": {
+    "time": "2021-02-15T22:31:55.761Z",
+    "value": 1
+  }
+}

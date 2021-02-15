@@ -1,0 +1,9 @@
+{
+  "path": "/valid/request/body",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:60037",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json"
+  }
+}

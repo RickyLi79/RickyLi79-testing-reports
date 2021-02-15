@@ -1,0 +1,12 @@
+{
+  "description": "no `content-type`",
+  "tags": [
+    "valid.request"
+  ],
+  "responses": {
+    "default": {
+      "description": "unexpected error"
+    }
+  },
+  "x-oas-ver": 2
+}

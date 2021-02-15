@@ -1,0 +1,23 @@
+{
+  "description": "required query",
+  "tags": [
+    "valid.request"
+  ],
+  "parameters": [
+    {
+      "name": "q1",
+      "in": "query",
+      "required": true,
+      "schema": {
+        "type": "string",
+        "maxLength": 5
+      }
+    }
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

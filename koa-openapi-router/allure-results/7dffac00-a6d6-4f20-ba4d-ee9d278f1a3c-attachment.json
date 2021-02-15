@@ -1,0 +1,9 @@
+{
+  "path": "/valid/request/cookie",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:60115",
+    "accept-encoding": "gzip, deflate",
+    "cookie": "c1=a too long text. length > maxLength"
+  }
+}

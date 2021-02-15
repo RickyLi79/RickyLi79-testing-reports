@@ -1,0 +1,15 @@
+{
+  "description": "`content-type` optional",
+  "tags": [
+    "valid.request"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "responses": {
+    "default": {
+      "description": "unexpected error"
+    }
+  },
+  "x-oas-ver": 2
+}
