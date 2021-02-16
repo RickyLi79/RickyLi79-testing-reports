@@ -1,12 +1,12 @@
 {
-  "uid" : "821d9e57bdbc7cdf",
+  "uid" : "b0044567870192f3",
   "name" : "expect `success`",
   "fullName" : "expect `success`",
   "historyId" : "166686aba6f742f1225d9e1e31639df6",
   "time" : {
-    "start" : 1613436807721,
-    "stop" : 1613436808655,
-    "duration" : 934
+    "start" : 1613481070287,
+    "stop" : 1613481072009,
+    "duration" : 1722
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,172 +17,172 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "visit : ",
       "time" : {
-        "start" : 1613436807778,
-        "stop" : 1613436808651,
-        "duration" : 873
+        "start" : 1613481070329,
+        "stop" : 1613481071991,
+        "duration" : 1662
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "supertest.get(\"/RickyLi79\")",
         "time" : {
-          "start" : 1613436808651,
-          "stop" : 1613436808652,
-          "duration" : 1
+          "start" : 1613481071993,
+          "stop" : 1613481071993,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : ".query({\"tab\":\"repositories\",\"type\":\"public\"})",
         "time" : {
-          "start" : 1613436808652,
-          "stop" : 1613436808652,
+          "start" : 1613481071993,
+          "stop" : 1613481071993,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : "--> request -> statusCode : 200",
         "time" : {
-          "start" : 1613436807778,
-          "stop" : 1613436808651,
-          "duration" : 873
+          "start" : 1613481070329,
+          "stop" : 1613481071991,
+          "duration" : 1662
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : ".expect(200)",
         "time" : {
-          "start" : 1613436808652,
-          "stop" : 1613436808652,
+          "start" : 1613481071993,
+          "stop" : 1613481071993,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       }, {
         "name" : ".expectHeader(\"server\", \"GitHub.com\")",
         "time" : {
-          "start" : 1613436808652,
-          "stop" : 1613436808652,
+          "start" : 1613481071993,
+          "stop" : 1613481071993,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       } ],
       "attachments" : [ {
-        "uid" : "605a9e128e1d847e",
+        "uid" : "bc053178fc41e71",
         "name" : "Request",
-        "source" : "605a9e128e1d847e.json",
+        "source" : "bc053178fc41e71.json",
         "type" : "application/json",
         "size" : 229
       }, {
-        "uid" : "3fa017c789655270",
+        "uid" : "baec906c1dbbea95",
         "name" : "Response",
-        "source" : "3fa017c789655270.json",
+        "source" : "baec906c1dbbea95.json",
         "type" : "application/json",
-        "size" : 2622
+        "size" : 3521
       } ],
       "parameters" : [ ],
-      "attachmentsCount" : 2,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 5,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
   },
   "afterStages" : [ {
     "time" : { },
@@ -190,50 +190,50 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -252,6 +252,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "821d9e57bdbc7cdf.json",
+  "source" : "b0044567870192f3.json",
   "parameterValues" : [ ]
 }

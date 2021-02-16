@@ -7,13 +7,13 @@
       "name" : "expected 302 \"Found\", got 200 \"OK\"",
       "children" : [ {
         "name" : "expect `broken` at `expect`",
-        "uid" : "3e15081dd2e3f29c",
+        "uid" : "6d30349cbe9ab690",
         "parentUid" : "b6503590c8dac9819d1f84c8ced66e74",
         "status" : "broken",
         "time" : {
-          "start" : 1613436808657,
-          "stop" : 1613436809010,
-          "duration" : 353
+          "start" : 1613481072013,
+          "stop" : 1613481072353,
+          "duration" : 340
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "expected 200 \"OK\", got 403 \"Forbidden\"",
       "children" : [ {
         "name" : "expect `broken` at `.expect(200)`",
-        "uid" : "c7534387acd49da4",
+        "uid" : "4196202be01e93a8",
         "parentUid" : "68ace3032ef221d50d1ddc66b5e287f9",
         "status" : "broken",
         "time" : {
-          "start" : 1613436809011,
-          "stop" : 1613436809476,
-          "duration" : 465
+          "start" : 1613481072364,
+          "stop" : 1613481073065,
+          "duration" : 701
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "ECONNREFUSED: Connection refused",
       "children" : [ {
         "name" : "expect `broken` at curl",
-        "uid" : "6f67c8dea954492b",
+        "uid" : "76907d2ee30a30c4",
         "parentUid" : "3b8b712a0a6718531b921c4d4b4fd93b",
         "status" : "broken",
         "time" : {
-          "start" : 1613436809477,
-          "stop" : 1613436811585,
-          "duration" : 2108
+          "start" : 1613481073067,
+          "stop" : 1613481075273,
+          "duration" : 2206
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
       "name" : "expected header['server'] => 'xxx' , got 'GitHub.com'",
       "children" : [ {
         "name" : "expect `broken` at `.expectHeader()`",
-        "uid" : "971616a3eaee2184",
+        "uid" : "e40a1e44742c2979",
         "parentUid" : "f0893f8a1a29d3463006c81b2815175e",
         "status" : "broken",
         "time" : {
-          "start" : 1613436811586,
-          "stop" : 1613436811877,
-          "duration" : 291
+          "start" : 1613481075274,
+          "stop" : 1613481079020,
+          "duration" : 3746
         },
         "flaky" : false,
         "newFailed" : false,

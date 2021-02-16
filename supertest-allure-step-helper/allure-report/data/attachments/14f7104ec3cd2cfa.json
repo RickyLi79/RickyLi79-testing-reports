@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "date": "Tue, 16 Feb 2021 13:11:11 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "server": "GitHub.com",
+    "link": "<https://github.githubassets.com/assets/chunk-frameworks-aaac5e7e.js>; integrity=sha512-qqxefjEZzhP8x0ed+F3sDEdSogyDs+0ThK6EYXtqye9PJ26t5C996Q9EuRBr+296TAbc1rimsOSeZjZXJac1cA==; rel=preload; crossorigin=anonymous; as=script,<https://github.githubassets.com/assets/chunk-vendor-6594a208.js>; integrity=sha512-ZZSiCHJ85gkTIyggKfuBXsl3a7e+GPhw6iUguJ6eki2dXkGnOFBpQlUUG+gcTSJzgE8ii1cYyM7aLYXZeSeDbA==; rel=preload; crossorigin=anonymous; as=script,<https://github.githubassets.com/assets/behaviors-bf28db4d.js>; integrity=sha512-vyjbTdEGTiemoiT41KyVSh3+NxJv285wa1qlccyGrTsQsAAvhBSUrT0t1LZbJVEfccSTx+zLAyTekiljOX2wKA==; rel=preload; crossorigin=anonymous; as=script,<https://github.githubassets.com/assets/environment-f0adafbf.js>; integrity=sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==; rel=preload; crossorigin=anonymous; as=script",
+    "vary": "X-PJAX, Accept-Encoding, Accept, X-Requested-With",
+    "cache-control": "no-cache",
+    "set-cookie": [
+      "_gh_sess=1zJKBQNlaFN59rd%2FPWdZvx16U7uhlwBRMWWm06WADApmKShLNbYrQO%2F8o%2BXMZJY4XgdmoBX8iVk9P8yQZCDsUB1Kp0wvC4fMcc16MKjVFNEvJ%2BZ0Z9BxNwpnzawCbO5tEH15aiLfedDHYWIe2hrl8aVAVn%2Bgf7Ce2ZmYhj93Oa4iCrXIxUTlXyl1NTGvE68r5jJYagZxb7a4aHBwN0EkY7bdvvT57c%2FA5D%2B%2BnSpeysh3Onte9Ee%2Fkl2E1LnVfji%2FiAHmHdzqjoSzShYAGiI4IXcA4Zo9psOq8JtgMAUC86iRI90K%2F6ITd3ZAIQhy%2FeAfiLxLVQOG9fVY6jrijJmtnhai2ySjMkfVWmhwWdkTjsIl0bHRmbe%2FS%2BFASzoWzF7JKshIAKZozKdKPOC9KQMBPhhQiTJolLs7FFU5xUUi1xPqeD5zlxGBCS4VSD3ckry0IK5E0IOs0BQcO6AsemSQs3O4c%2BggZfCJpAWS1TaO1nI0ff9uQ23%2F0z%2BJylFFXsKqZEg3hVf%2FWjGQlRl4EIe4DPAcqg02WcLIMLtg%2BKvunXClDDwPjsknYWw4p97afjDhAESbcGxYdQqqxEADUT7BlXpvPYN6VLvtYzCGnNoS8lVKZOQpEtNXsYp96OF7Xqy%2FQov3%2FBo7APAK2z27IvRAvFLVlrjE69%2Ff8iU3mKF7gn%2Fz%2FQLXoPnrSMExSe0afeLsJ7ulKLA9lQr5zzSjswBqf4EBrL3yK1SPrXwYtE7YBZTr38G44rxDDW9yPYMfRS09PZyQeZZ5HKvbLkA89snhTkZsDiN1odo9%2BRzl5asCwpJK7pWFmAXeRvwuIFdnUCs%2BS0Mn8g%3D%3D--J4TUtIQVXWlzrDKY--H971CsAykehy3B8cFukxaQ%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js",
+    "content-encoding": "gzip",
+    "x-github-request-id": "3D00:2CFE:1247834:153DDE0:602BC46F",
+    "connection": "close"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "e40a1e44742c2979",
+  "name" : "expect `broken` at `.expectHeader()`",
+  "fullName" : "expect `broken` at `.expectHeader()`",
+  "historyId" : "63b5a584e81f0163a5b0ab3f35c27a67",
+  "time" : {
+    "start" : 1613481075274,
+    "stop" : 1613481079020,
+    "duration" : 3746
+  },
+  "status" : "broken",
+  "statusMessage" : "expected header['server'] => 'xxx' , got 'GitHub.com'",
+  "statusTrace" : "Error: expected header['server'] => 'xxx' , got 'GitHub.com'\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:181:21)\n    at TestSuite.test5 (allure.test\\example.allure.ts:84:8)\n    at Context.test5 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:456:21)\n    at process.topLevelDomainCallback (domain.js:137:15)\n----\n    at D:\\git\\supertest-allure-step-helper\\helpers\\AllureStepProxyHandler.ts:187:26\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:204:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:890:12)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at Stream.emit (domain.js:485:12)\n    at Unzip.<anonymous> (node_modules\\superagent\\src\\node\\unzip.js:54:12)\n    at Unzip.EventEmitter.emit (domain.js:485:12)\n    at endReadableNT (_stream_readable.js:1218:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "expected header['server'] => 'xxx' , got 'GitHub.com'",
+    "statusTrace" : "Error: expected header['server'] => 'xxx' , got 'GitHub.com'\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:181:21)\n    at TestSuite.test5 (allure.test\\example.allure.ts:84:8)\n    at Context.test5 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:456:21)\n    at process.topLevelDomainCallback (domain.js:137:15)\n----\n    at D:\\git\\supertest-allure-step-helper\\helpers\\AllureStepProxyHandler.ts:187:26\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:204:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:890:12)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at Stream.emit (domain.js:485:12)\n    at Unzip.<anonymous> (node_modules\\superagent\\src\\node\\unzip.js:54:12)\n    at Unzip.EventEmitter.emit (domain.js:485:12)\n    at endReadableNT (_stream_readable.js:1218:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+    "steps" : [ {
+      "name" : "supertest.get(\"/RickyLi79\").query({\"tab\":\"re...:\"public\"}).expect(200).--EXPECTHEADER(\"server\", \"xxx\")--",
+      "time" : {
+        "start" : 1613481075276,
+        "stop" : 1613481079009,
+        "duration" : 3733
+      },
+      "status" : "broken",
+      "steps" : [ {
+        "name" : "supertest.get(\"/RickyLi79\")",
+        "time" : {
+          "start" : 1613481079009,
+          "stop" : 1613481079009,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".query({\"tab\":\"repositories\",\"type\":\"public\"})",
+        "time" : {
+          "start" : 1613481079009,
+          "stop" : 1613481079009,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(200)",
+        "time" : {
+          "start" : 1613481079009,
+          "stop" : 1613481079009,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expectHeader(\"server\", \"xxx\")",
+        "time" : {
+          "start" : 1613481079009,
+          "stop" : 1613481079009,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "steps" : [ {
+          "name" : "expected header['server'] => 'xxx' , got 'GitHub.com'",
+          "time" : {
+            "start" : 1613481079009,
+            "stop" : 1613481079009,
+            "duration" : 0
+          },
+          "status" : "broken",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "edbb83e773c814a6",
+        "name" : "Request",
+        "source" : "edbb83e773c814a6.json",
+        "type" : "application/json",
+        "size" : 229
+      }, {
+        "uid" : "4da0519235cd78e2",
+        "name" : "Response",
+        "source" : "4da0519235cd78e2.json",
+        "type" : "application/json",
+        "size" : 3510
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "supertest-allure-step-helper : expample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e40a1e44742c2979.json",
+  "parameterValues" : [ ]
+}
