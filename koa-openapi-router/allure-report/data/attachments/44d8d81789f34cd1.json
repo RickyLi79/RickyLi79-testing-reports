@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:61324/path/parameter/48/21",
+  "path": "/path/parameter/48/21",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:61324",
+    "accept-encoding": "gzip, deflate"
+  }
+}

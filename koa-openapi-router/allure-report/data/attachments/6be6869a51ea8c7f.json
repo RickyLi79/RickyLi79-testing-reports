@@ -1,9 +1,0 @@
-{
-  "path": "/valid/request/contentType",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:60075",
-    "accept-encoding": "gzip, deflate",
-    "content-type": "html/text"
-  }
-}

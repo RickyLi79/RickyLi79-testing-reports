@@ -1,8 +1,0 @@
-{
-  "path": "/valid/request/cookie",
-  "method": "POST",
-  "headers": {
-    "host": "127.0.0.1:60120",
-    "accept-encoding": "gzip, deflate"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "path": "/path/parameter/4/14",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:60131",
-    "accept-encoding": "gzip, deflate"
-  }
-}

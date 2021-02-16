@@ -1,8 +1,0 @@
-{
-  "path": "/valid/request/path/0.073/0.131",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:60090",
-    "accept-encoding": "gzip, deflate"
-  }
-}

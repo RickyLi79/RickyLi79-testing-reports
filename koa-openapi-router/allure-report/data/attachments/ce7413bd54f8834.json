@@ -1,0 +1,21 @@
+{
+  "routerConfig2": {
+    "prefix": "/api2"
+  },
+  "config2": {
+    "controllerDir": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller",
+    "docsDir": "D:\\git\\koa-openapi-router\\allure.test\\suite\\docs\\valid.req.para.oas3.json",
+    "recursive": false,
+    "watcher": {
+      "enabled": false
+    },
+    "validSchema": {
+      "request": true,
+      "reponse": true
+    },
+    "test": {
+      "enabled": true,
+      "controllerFileExt": ".ts"
+    }
+  }
+}

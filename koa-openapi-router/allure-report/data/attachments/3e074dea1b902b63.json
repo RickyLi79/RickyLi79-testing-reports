@@ -1,8 +1,0 @@
-{
-  "path": "/valid/response/header",
-  "method": "PUT",
-  "headers": {
-    "host": "127.0.0.1:60173",
-    "accept-encoding": "gzip, deflate"
-  }
-}

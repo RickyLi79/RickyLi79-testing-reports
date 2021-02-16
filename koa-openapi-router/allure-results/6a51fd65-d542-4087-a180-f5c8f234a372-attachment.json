@@ -1,9 +1,0 @@
-{
-  "path": "/valid/request/contentType",
-  "method": "PATCH",
-  "headers": {
-    "host": "127.0.0.1:60085",
-    "accept-encoding": "gzip, deflate",
-    "content-type": "application/json"
-  }
-}
