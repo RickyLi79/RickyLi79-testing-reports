@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\valid.request.ts",
+    "x-openapi-test-response-header-request-schema": "{\"description\":\"`content-type` required\",\"tags\":[\"valid.request\"],\"consumes\":[\"application/json\"],\"parameters\":[{\"name\":\"body\",\"in\":\"body\",\"required\":true,\"schema\":{\"type\":\"object\"}}],\"responses\":{\"default\":{\"description\":\"unexpected error\"}},\"x-oas-ver\":2,\"x-openapi-mark-accept-content-types\":{\"application/json\":true},\"x-openapi-mark-quest-body-required\":true}",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "37",
+    "date": "Tue, 16 Feb 2021 19:26:58 GMT",
+    "connection": "close"
+  }
+}
