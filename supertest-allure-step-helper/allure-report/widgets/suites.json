@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "5269aed40d0c9eb5b61d2a718724a831",
+    "name" : "supertest-allure-step-helper : expample",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

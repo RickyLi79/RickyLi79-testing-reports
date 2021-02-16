@@ -1,0 +1,250 @@
+{
+  "uid" : "3e15081dd2e3f29c",
+  "name" : "expect `broken` at `expect`",
+  "fullName" : "expect `broken` at `expect`",
+  "historyId" : "b304b8c768233e2852ac8a782527170c",
+  "time" : {
+    "start" : 1613436808657,
+    "stop" : 1613436809010,
+    "duration" : 353
+  },
+  "status" : "broken",
+  "statusMessage" : "expected 302 \"Found\", got 200 \"OK\"",
+  "statusTrace" : "Error: expected 302 \"Found\", got 200 \"OK\"\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:192:33)\n    at TestSuite.test2 (allure.test\\example.allure.ts:42:8)\n    at Context.test2 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:456:21)\n    at process.topLevelDomainCallback (domain.js:137:15)\n----\n    at Test._assertStatus (node_modules\\supertest\\lib\\test.js:296:12)\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:204:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:890:12)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at Stream.emit (domain.js:485:12)\n    at Unzip.<anonymous> (node_modules\\superagent\\src\\node\\unzip.js:54:12)\n    at Unzip.EventEmitter.emit (domain.js:485:12)\n    at endReadableNT (_stream_readable.js:1218:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "expected 302 \"Found\", got 200 \"OK\"",
+    "statusTrace" : "Error: expected 302 \"Found\", got 200 \"OK\"\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:192:33)\n    at TestSuite.test2 (allure.test\\example.allure.ts:42:8)\n    at Context.test2 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:456:21)\n    at process.topLevelDomainCallback (domain.js:137:15)\n----\n    at Test._assertStatus (node_modules\\supertest\\lib\\test.js:296:12)\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:204:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:890:12)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at Stream.emit (domain.js:485:12)\n    at Unzip.<anonymous> (node_modules\\superagent\\src\\node\\unzip.js:54:12)\n    at Unzip.EventEmitter.emit (domain.js:485:12)\n    at endReadableNT (_stream_readable.js:1218:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+    "steps" : [ {
+      "name" : "supertest.get(\"/RickyLi79\").query({\"tab\":\"re...:\"public\"}).--EXPECT(302)--",
+      "time" : {
+        "start" : 1613436808658,
+        "stop" : 1613436809002,
+        "duration" : 344
+      },
+      "status" : "broken",
+      "steps" : [ {
+        "name" : "supertest.get(\"/RickyLi79\")",
+        "time" : {
+          "start" : 1613436809002,
+          "stop" : 1613436809002,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : ".query({\"tab\":\"repositories\",\"type\":\"public\"})",
+        "time" : {
+          "start" : 1613436809002,
+          "stop" : 1613436809002,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : ".expect(302)",
+        "time" : {
+          "start" : 1613436809002,
+          "stop" : 1613436809002,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "steps" : [ {
+          "name" : "expected 302 \"Found\", got 200 \"OK\"",
+          "time" : {
+            "start" : 1613436809002,
+            "stop" : 1613436809002,
+            "duration" : 0
+          },
+          "status" : "broken",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ce1231a76e3b5d14",
+        "name" : "Request",
+        "source" : "ce1231a76e3b5d14.json",
+        "type" : "application/json",
+        "size" : 229
+      }, {
+        "uid" : "dafa94b0e325a8fd",
+        "name" : "Response",
+        "source" : "dafa94b0e325a8fd.json",
+        "type" : "application/json",
+        "size" : 2607
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "supertest-allure-step-helper : expample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e15081dd2e3f29c.json",
+  "parameterValues" : [ ]
+}

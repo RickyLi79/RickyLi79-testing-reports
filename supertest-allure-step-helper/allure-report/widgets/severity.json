@@ -1,0 +1,51 @@
+[ {
+  "uid" : "821d9e57bdbc7cdf",
+  "name" : "expect `success`",
+  "time" : {
+    "start" : 1613436807721,
+    "stop" : 1613436808655,
+    "duration" : 934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f67c8dea954492b",
+  "name" : "expect `broken` at curl",
+  "time" : {
+    "start" : 1613436809477,
+    "stop" : 1613436811585,
+    "duration" : 2108
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "971616a3eaee2184",
+  "name" : "expect `broken` at `.expectHeader()`",
+  "time" : {
+    "start" : 1613436811586,
+    "stop" : 1613436811877,
+    "duration" : 291
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e15081dd2e3f29c",
+  "name" : "expect `broken` at `expect`",
+  "time" : {
+    "start" : 1613436808657,
+    "stop" : 1613436809010,
+    "duration" : 353
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c7534387acd49da4",
+  "name" : "expect `broken` at `.expect(200)`",
+  "time" : {
+    "start" : 1613436809011,
+    "stop" : 1613436809476,
+    "duration" : 465
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
