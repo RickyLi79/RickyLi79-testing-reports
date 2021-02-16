@@ -1,5 +1,5 @@
 {
-  "total" : 10,
+  "total" : 11,
   "items" : [ {
     "uid" : "549f7d617f51843a2bacfc62b43f1e4c",
     "name" : "OpenapiRouter: valid.request.para",
@@ -43,6 +43,17 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 4
+    }
+  }, {
+    "uid" : "b3bca8402d2496a54affb105106e09d0",
+    "name" : "OpenapiRouter: proxyAction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   }, {
     "uid" : "51c7956a942b975dc8bb4f4ad8ef4ccb",
@@ -91,17 +102,6 @@
   }, {
     "uid" : "57baf3cd4edf9d38dfc5e426d28e9377",
     "name" : "OpenapiRouter: valid.request.body - oas2",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "78954f1656474f29d1a4d5192c36f1f9",
-    "name" : "OpenapiRouter: valid.request.body - oas3",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
