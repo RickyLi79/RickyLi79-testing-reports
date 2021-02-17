@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\valid.response.body.ts",
+    "x-openapi-test-response-header-request-schema": "{\"description\":\"`response.body` , valid\",\"tags\":[\"valid.response.body\"],\"produces\":[\"application/json\"],\"responses\":{\"200\":{\"description\":\"ok\",\"schema\":{\"type\":\"object\",\"properties\":{\"ok\":{\"enum\":[1]}}}}},\"x-oas-ver\":2}",
+    "content-type": "application/json",
+    "x-openapi-test-response-header-response-body-status": "200",
+    "x-openapi-test-response-header-response-header-status": "200",
+    "content-length": "8",
+    "date": "Wed, 17 Feb 2021 16:38:54 GMT",
+    "connection": "close"
+  }
+}

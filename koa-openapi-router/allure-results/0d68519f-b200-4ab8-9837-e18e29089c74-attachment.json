@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:54119/valid/response/body",
+  "path": "/valid/response/body",
+  "method": "PATCH",
+  "headers": {
+    "host": "127.0.0.1:54119",
+    "accept-encoding": "gzip, deflate"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:50672/valid/request/query?q1=any",
-  "path": "/valid/request/query?q1=any",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:50672",
-    "accept-encoding": "gzip, deflate"
-  }
-}
