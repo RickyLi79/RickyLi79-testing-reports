@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:53973/api1/no/such/action/api1",
-  "path": "/api1/no/such/action/api1",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:53973",
-    "accept-encoding": "gzip, deflate"
-  }
-}

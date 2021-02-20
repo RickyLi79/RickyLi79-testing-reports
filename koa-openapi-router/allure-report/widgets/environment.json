@@ -1,4 +1,7 @@
 [ {
+  "values" : [ "1.1.0" ],
+  "name" : "project : @rickyli79/koa-openapi-router"
+}, {
   "values" : [ "2.13.1" ],
   "name" : "package : koa"
 }, {
