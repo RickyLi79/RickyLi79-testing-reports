@@ -1,0 +1,26 @@
+{
+  "description": "`response.body` , valid",
+  "tags": [
+    "valid.response.body"
+  ],
+  "responses": {
+    "200": {
+      "description": "ok",
+      "content": {
+        "application/json": {
+          "schema": {
+            "type": "object",
+            "properties": {
+              "ok": {
+                "enum": [
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-oas-ver": 3
+}

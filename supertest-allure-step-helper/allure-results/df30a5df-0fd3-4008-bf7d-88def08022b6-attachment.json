@@ -1,0 +1,12 @@
+{
+  "description": "no `response.body` schema",
+  "tags": [
+    "valid.response.body"
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

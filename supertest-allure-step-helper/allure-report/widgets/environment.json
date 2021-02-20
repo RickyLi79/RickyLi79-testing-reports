@@ -1,19 +1,22 @@
 [ {
-  "values" : [ "0.1.2" ],
-  "name" : "package : @testdeck/mocha"
+  "values" : [ "1.1.0" ],
+  "name" : "project : @rickyli79/koa-openapi-router"
 }, {
-  "values" : [ "2.0.0-beta.7" ],
-  "name" : "package : allure-js-commons"
+  "values" : [ "2.13.1" ],
+  "name" : "package : koa"
 }, {
-  "values" : [ "2.0.0-beta.7" ],
-  "name" : "package : allure-mocha"
+  "values" : [ "4.3.0" ],
+  "name" : "package : koa-bodyparser"
 }, {
-  "values" : [ "0.0.6" ],
-  "name" : "package : ts-test-decorators"
+  "values" : [ "10.0.0" ],
+  "name" : "package : koa-router"
 }, {
   "values" : [ "6.1.3" ],
   "name" : "package : supertest"
 }, {
-  "values" : [ "8.3.0" ],
-  "name" : "package : mocha"
+  "values" : [ "1.4.0" ],
+  "name" : "package : jsonschema"
+}, {
+  "values" : [ "10.0.2" ],
+  "name" : "package : @apidevtools/swagger-parser"
 } ]

@@ -1,0 +1,13 @@
+{
+  "tags": [
+    "tagX"
+  ],
+  "x-controller": "tag1",
+  "description": "has `x-controller, `has `tags[0]`",
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

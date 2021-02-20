@@ -1,0 +1,22 @@
+{
+  "description": "optional header",
+  "tags": [
+    "valid.request"
+  ],
+  "parameters": [
+    {
+      "name": "h1",
+      "in": "header",
+      "schema": {
+        "type": "string",
+        "maxLength": 5
+      }
+    }
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3
+}

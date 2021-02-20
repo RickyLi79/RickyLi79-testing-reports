@@ -1,15 +1,114 @@
 {
-  "total" : 1,
+  "total" : 11,
   "items" : [ {
-    "uid" : "5269aed40d0c9eb5b61d2a718724a831",
-    "name" : "supertest-allure-step-helper : expample",
+    "uid" : "549f7d617f51843a2bacfc62b43f1e4c",
+    "name" : "OpenapiRouter: valid.request.para",
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "b3e426625648464b249378d0204e78a7",
+    "name" : "OpenapiRouter: valid.request.path",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "4634bb717668f3baa0893d74a90108ed",
+    "name" : "OpenapiRouter: valid.response.header",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "3d1a267f215298fae9c746169ca07387",
+    "name" : "OpenapiRouter: create",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b3bca8402d2496a54affb105106e09d0",
+    "name" : "OpenapiRouter: proxyAction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "51c7956a942b975dc8bb4f4ad8ef4ccb",
+    "name" : "OpenapiRouter: valid.request.contentType  oas2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "71def1a25e8074bf810c47db01d3b30d",
+    "name" : "OpenapiRouter: valid.request.contentType  oas3",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a13d8799670ada707fe460f5b464f401",
+    "name" : "OpenapiRouter: valid.response.body  oas2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "917b8f67d534dbcbe074febbba81ab53",
+    "name" : "OpenapiRouter: valid.response.body  oas3",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "57baf3cd4edf9d38dfc5e426d28e9377",
+    "name" : "OpenapiRouter: valid.request.body - oas2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }

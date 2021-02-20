@@ -1,70 +1,551 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
-    "name" : "expect `success`",
-    "uid" : "b0044567870192f3",
+    "name" : "by `new OpenapiRouter()` , one doc-file",
+    "uid" : "5ac4a575fd5a675a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1613481070287,
-      "stop" : 1613481072009,
-      "duration" : 1722
+      "start" : 1613823442119,
+      "stop" : 1613823442166,
+      "duration" : 47
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "expect `broken` at `expect`",
-    "uid" : "6d30349cbe9ab690",
+    "name" : "by `new OpenapiRouter()` , scan dir",
+    "uid" : "c56ebdf01ffaec6a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1613481072013,
-      "stop" : 1613481072353,
-      "duration" : 340
+      "start" : 1613823442167,
+      "stop" : 1613823442336,
+      "duration" : 169
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "expect `broken` at `.expect(200)`",
-    "uid" : "4196202be01e93a8",
+    "name" : "by `OpenapiRouter.Start()` , use `Router.IRouterOptions`",
+    "uid" : "2134614c75588f7a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1613481072364,
-      "stop" : 1613481073065,
-      "duration" : 701
+      "start" : 1613823442337,
+      "stop" : 1613823442358,
+      "duration" : 21
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "expect `broken` at curl",
-    "uid" : "76907d2ee30a30c4",
+    "name" : "by `OpenapiRouter.Start()` , mix",
+    "uid" : "b0b8c2c6ab225f80",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1613481073067,
-      "stop" : 1613481075273,
-      "duration" : 2206
+      "start" : 1613823442359,
+      "stop" : 1613823442408,
+      "duration" : 49
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "expect `broken` at `.expectHeader()`",
-    "uid" : "e40a1e44742c2979",
+    "name" : "set `proxyAction` by config",
+    "uid" : "1626d04c6025e401",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1613481075274,
-      "stop" : 1613481079020,
-      "duration" : 3746
+      "start" : 1613823442412,
+      "stop" : 1613823442430,
+      "duration" : 18
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
-  } ]
+  }, {
+    "name" : "set `proxyAction` by code",
+    "uid" : "1dc6d79cdf62d15b",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442432,
+      "stop" : 1613823442463,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "remove `proxyAction`",
+    "uid" : "58559a4f6ac6f800",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442464,
+      "stop" : 1613823442495,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `body`",
+    "uid" : "f390fa7b8696c3e7",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442499,
+      "stop" : 1613823442565,
+      "duration" : 66
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : optional `body`",
+    "uid" : "87becfd986fce4ca",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442567,
+      "stop" : 1613823442605,
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `body`",
+    "uid" : "ad763d0b694e41d3",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442618,
+      "stop" : 1613823442667,
+      "duration" : 49
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : optional `body`",
+    "uid" : "1772ee4ea4dd1eb1",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442668,
+      "stop" : 1613823442701,
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : no `req.contentType` required",
+    "uid" : "69d850f08cf3574e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442706,
+      "stop" : 1613823442744,
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : `content-type` optional",
+    "uid" : "521b3f13deb65b27",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442745,
+      "stop" : 1613823442773,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : `content-type` required",
+    "uid" : "d19e626200caf8fd",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442775,
+      "stop" : 1613823442804,
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : no `req.contentType` required",
+    "uid" : "3e95b196a714c28e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442809,
+      "stop" : 1613823442837,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : `content-type` optional",
+    "uid" : "d9352e1e17007cb5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442839,
+      "stop" : 1613823442867,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : `content-type` required",
+    "uid" : "fee13763df29ad0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442868,
+      "stop" : 1613823442895,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `path`",
+    "uid" : "3391ce7c88ad0d4d",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442899,
+      "stop" : 1613823442927,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `header`",
+    "uid" : "5921ab8664627a3f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442928,
+      "stop" : 1613823442962,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : optional `header`",
+    "uid" : "5bfa3f5b2fedd2fe",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442963,
+      "stop" : 1613823442990,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `query`",
+    "uid" : "890eefedb1af6e44",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823442991,
+      "stop" : 1613823443024,
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : optional `query`",
+    "uid" : "21a75a9ad1e5f9a8",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443026,
+      "stop" : 1613823443053,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : required `cookie`",
+    "uid" : "6bc4e8e4aff4606f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443054,
+      "stop" : 1613823443084,
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.request : optional `cookie`",
+    "uid" : "c595b1393cd8996b",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443085,
+      "stop" : 1613823443115,
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , no `x-controller`, no `tags` => `default`",
+    "uid" : "838e738a30c42106",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443120,
+      "stop" : 1613823443138,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , no `x-controller`, has `tags[0]`",
+    "uid" : "b29f939aac6bffa3",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443139,
+      "stop" : 1613823443156,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , has `x-controller`, has `tags[0]`",
+    "uid" : "f8127d5e1b6c0b73",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443157,
+      "stop" : 1613823443173,
+      "duration" : 16
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , path parameter",
+    "uid" : "4c27d8df815a75cb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443174,
+      "stop" : 1613823443189,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , order : `GET`|`POST`|`DELETE`|`PATCH`|...",
+    "uid" : "7fba347bb54c2ac",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443190,
+      "stop" : 1613823443210,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , order : `ALL`",
+    "uid" : "4b6d9a53151ffbc5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443211,
+      "stop" : 1613823443232,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "locate controller.action , order : `none`",
+    "uid" : "b2d5d2f41d7d4167",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443234,
+      "stop" : 1613823443253,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : no `response.body` schema",
+    "uid" : "bbf080b911de4d93",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443258,
+      "stop" : 1613823443282,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.body` valid",
+    "uid" : "7085d3759644ab00",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443283,
+      "stop" : 1613823443302,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.body` invalid",
+    "uid" : "800fd571baaf3fea",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443304,
+      "stop" : 1613823443326,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : no `response.body` schema",
+    "uid" : "cf32378a0b2b9e8a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443335,
+      "stop" : 1613823443357,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.body` valid",
+    "uid" : "3804f01bfce194e8",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443359,
+      "stop" : 1613823443380,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.body` invalid",
+    "uid" : "c98d268aa3640eb2",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443382,
+      "stop" : 1613823443401,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : no `response.header` required",
+    "uid" : "9bb5c562ec119001",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443406,
+      "stop" : 1613823443433,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.header` optional, valid",
+    "uid" : "d25261a8a1f84900",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443436,
+      "stop" : 1613823443456,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.header` optional, invalid",
+    "uid" : "f82767a73aa1bc26",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443458,
+      "stop" : 1613823443480,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.header` required, valid",
+    "uid" : "9163a28a4ac22ad5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443481,
+      "stop" : 1613823443500,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "valid.response : `response.header` required, invalid",
+    "uid" : "53d61e9da35cd648",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613823443501,
+      "stop" : 1613823443521,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
 }
