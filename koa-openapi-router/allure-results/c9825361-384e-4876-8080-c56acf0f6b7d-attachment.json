@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:58249/valid/request/cookie",
+  "path": "/valid/request/cookie",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:58249",
+    "accept-encoding": "gzip, deflate",
+    "cookie": "c1=any"
+  }
+}

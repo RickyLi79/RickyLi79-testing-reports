@@ -1,22 +1,22 @@
 [ {
-  "values" : [ "0.2.0" ],
+  "values" : [ "0.2.1" ],
   "name" : "project : supertest-allure-step-helper"
 }, {
-  "values" : [ "0.1.2" ],
-  "name" : "package : @testdeck/mocha"
+  "values" : [ "v0.1.2" ],
+  "name" : "dep : @testdeck/mocha"
 }, {
-  "values" : [ "2.0.0-beta.7" ],
-  "name" : "package : allure-js-commons"
+  "values" : [ "v2.0.0-beta.7" ],
+  "name" : "dep : allure-js-commons"
 }, {
-  "values" : [ "2.0.0-beta.7" ],
-  "name" : "package : allure-mocha"
+  "values" : [ "v2.0.0-beta.7" ],
+  "name" : "dep : allure-mocha"
 }, {
-  "values" : [ "0.0.6" ],
-  "name" : "package : ts-test-decorators"
+  "values" : [ "v0.0.6" ],
+  "name" : "dep : ts-test-decorators"
 }, {
-  "values" : [ "6.1.3" ],
-  "name" : "package : supertest"
+  "values" : [ "v6.1.3" ],
+  "name" : "dep : supertest"
 }, {
-  "values" : [ "8.3.0" ],
-  "name" : "package : mocha"
+  "values" : [ "v8.3.0" ],
+  "name" : "dep : mocha"
 } ]

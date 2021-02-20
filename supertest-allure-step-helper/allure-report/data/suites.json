@@ -5,65 +5,65 @@
     "name" : "supertest-allure-step-helper : expample",
     "children" : [ {
       "name" : "expect `success`",
-      "uid" : "180568bae06dfa11",
+      "uid" : "4334cabec5ee76b3",
       "parentUid" : "5269aed40d0c9eb5b61d2a718724a831",
       "status" : "passed",
       "time" : {
-        "start" : 1613823741526,
-        "stop" : 1613823742761,
-        "duration" : 1235
+        "start" : 1613837736297,
+        "stop" : 1613837737769,
+        "duration" : 1472
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "expect `broken` at `expect`",
-      "uid" : "7b2d02795794f17b",
+      "uid" : "50ae2263fa05cfd1",
       "parentUid" : "5269aed40d0c9eb5b61d2a718724a831",
       "status" : "broken",
       "time" : {
-        "start" : 1613823742763,
-        "stop" : 1613823743365,
-        "duration" : 602
+        "start" : 1613837737773,
+        "stop" : 1613837738908,
+        "duration" : 1135
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "expect `broken` at `.expect(200)`",
-      "uid" : "1b676ed8a9214925",
+      "uid" : "f5b664a9e72d8fd9",
       "parentUid" : "5269aed40d0c9eb5b61d2a718724a831",
       "status" : "broken",
       "time" : {
-        "start" : 1613823743366,
-        "stop" : 1613823744037,
-        "duration" : 671
+        "start" : 1613837738909,
+        "stop" : 1613837741837,
+        "duration" : 2928
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "expect `broken` at curl",
-      "uid" : "2cd9820c5b89b07d",
+      "uid" : "f0d681984fe996",
       "parentUid" : "5269aed40d0c9eb5b61d2a718724a831",
       "status" : "broken",
       "time" : {
-        "start" : 1613823744039,
-        "stop" : 1613823744577,
-        "duration" : 538
+        "start" : 1613837741841,
+        "stop" : 1613837744801,
+        "duration" : 2960
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "expect `broken` at `.expectHeader()`",
-      "uid" : "1ec9b5f3cf97858d",
+      "uid" : "8fa7c7e83cb68227",
       "parentUid" : "5269aed40d0c9eb5b61d2a718724a831",
       "status" : "broken",
       "time" : {
-        "start" : 1613823744578,
-        "stop" : 1613823748984,
-        "duration" : 4406
+        "start" : 1613837744804,
+        "stop" : 1613837746604,
+        "duration" : 1800
       },
       "flaky" : false,
       "newFailed" : false,
