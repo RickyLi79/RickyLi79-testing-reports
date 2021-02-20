@@ -1,0 +1,78 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "egg-openapi-router",
+    "children" : [ {
+      "name" : "egg default",
+      "uid" : "da5cb910e9141b2",
+      "parentUid" : "d14c6f0ec8a6e6821e9d89b9d773d7e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613847658659,
+        "stop" : 1613847658682,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "init",
+      "children" : [ {
+        "name" : "controller, 415",
+        "uid" : "10a06438bef5b4c5",
+        "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613847658703,
+          "stop" : 1613847658718,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "controller, 422",
+        "uid" : "ad2fb6a06a6a0088",
+        "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613847658720,
+          "stop" : 1613847658746,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "controller, 200",
+        "uid" : "b558c74b69ce929",
+        "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613847658748,
+          "stop" : 1613847658754,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "proxyAction",
+        "uid" : "1e8529aa9ba4b790",
+        "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613847658755,
+          "stop" : 1613847658772,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59857623e56efc0ab4ad2bef5e38257b"
+    } ],
+    "uid" : "d14c6f0ec8a6e6821e9d89b9d773d7e8"
+  } ]
+}

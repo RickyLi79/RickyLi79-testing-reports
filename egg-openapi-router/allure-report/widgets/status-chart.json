@@ -1,0 +1,51 @@
+[ {
+  "uid" : "10a06438bef5b4c5",
+  "name" : "controller, 415",
+  "time" : {
+    "start" : 1613847658703,
+    "stop" : 1613847658718,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ad2fb6a06a6a0088",
+  "name" : "controller, 422",
+  "time" : {
+    "start" : 1613847658720,
+    "stop" : 1613847658746,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "da5cb910e9141b2",
+  "name" : "egg default",
+  "time" : {
+    "start" : 1613847658659,
+    "stop" : 1613847658682,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b558c74b69ce929",
+  "name" : "controller, 200",
+  "time" : {
+    "start" : 1613847658748,
+    "stop" : 1613847658754,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e8529aa9ba4b790",
+  "name" : "proxyAction",
+  "time" : {
+    "start" : 1613847658755,
+    "stop" : 1613847658772,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

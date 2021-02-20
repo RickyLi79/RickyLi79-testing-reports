@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "1.0.1" ],
+  "name" : "project : egg-openapi-router"
+}, {
+  "values" : [ "v1.1.5" ],
+  "name" : "dep : @rickyli79/koa-openapi-router"
+}, {
+  "values" : [ "v2.29.1" ],
+  "name" : "dep : egg"
+} ]

@@ -1,5 +1,17 @@
 [[Github]](./README.md) | Gitee
 
+# egg-openapi-router
+[![NPM version][npm-image-3]][npm-url-3]
+[![npm download][download-image-3]][download-url-3]
+
+[npm-image-3]: https://img.shields.io/npm/v/egg-openapi-router.svg?style=flat-square
+[npm-url-3]: https://npmjs.org/package/egg-openapi-router
+[download-image-3]: https://img.shields.io/npm/dm/egg-openapi-router.svg?style=flat-square
+[download-url-3]: https://npmjs.org/package/egg-openapi-router
+
+- Repository : https://gitee.com/RickyLi79/egg-openapi-router/
+- Report HTML : https://rickyli79.gitee.io/testing-reports/egg-openapi-router/allure-report/
+
 # supertest-allure-step-helper
 [![NPM version][npm-image-1]][npm-url-1]
 [![npm download][download-image-1]][download-url-1]

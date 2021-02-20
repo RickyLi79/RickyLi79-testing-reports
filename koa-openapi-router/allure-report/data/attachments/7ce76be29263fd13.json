@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:50786/valid/request/contentType",
+  "path": "/valid/request/contentType",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:50786",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "html/text"
+  }
+}
