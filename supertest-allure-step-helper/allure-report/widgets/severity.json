@@ -1,421 +1,51 @@
 [ {
-  "uid" : "4c27d8df815a75cb",
-  "name" : "locate controller.action , path parameter",
+  "uid" : "1ec9b5f3cf97858d",
+  "name" : "expect `broken` at `.expectHeader()`",
   "time" : {
-    "start" : 1613823443174,
-    "stop" : 1613823443189,
-    "duration" : 15
+    "start" : 1613823744578,
+    "stop" : 1613823748984,
+    "duration" : 4406
   },
-  "status" : "passed",
-  "severity" : "critical"
+  "status" : "broken",
+  "severity" : "normal"
 }, {
-  "uid" : "3391ce7c88ad0d4d",
-  "name" : "valid.request : required `path`",
+  "uid" : "1b676ed8a9214925",
+  "name" : "expect `broken` at `.expect(200)`",
   "time" : {
-    "start" : 1613823442899,
-    "stop" : 1613823442927,
-    "duration" : 28
+    "start" : 1613823743366,
+    "stop" : 1613823744037,
+    "duration" : 671
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "180568bae06dfa11",
+  "name" : "expect `success`",
+  "time" : {
+    "start" : 1613823741526,
+    "stop" : 1613823742761,
+    "duration" : 1235
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6bc4e8e4aff4606f",
-  "name" : "valid.request : required `cookie`",
+  "uid" : "7b2d02795794f17b",
+  "name" : "expect `broken` at `expect`",
   "time" : {
-    "start" : 1613823443054,
-    "stop" : 1613823443084,
-    "duration" : 30
+    "start" : 1613823742763,
+    "stop" : 1613823743365,
+    "duration" : 602
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "d9352e1e17007cb5",
-  "name" : "valid.request : `content-type` optional",
+  "uid" : "2cd9820c5b89b07d",
+  "name" : "expect `broken` at curl",
   "time" : {
-    "start" : 1613823442839,
-    "stop" : 1613823442867,
-    "duration" : 28
+    "start" : 1613823744039,
+    "stop" : 1613823744577,
+    "duration" : 538
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
-}, {
-  "uid" : "ad763d0b694e41d3",
-  "name" : "valid.request : required `body`",
-  "time" : {
-    "start" : 1613823442618,
-    "stop" : 1613823442667,
-    "duration" : 49
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c98d268aa3640eb2",
-  "name" : "valid.response : `response.body` invalid",
-  "time" : {
-    "start" : 1613823443382,
-    "stop" : 1613823443401,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "800fd571baaf3fea",
-  "name" : "valid.response : `response.body` invalid",
-  "time" : {
-    "start" : 1613823443304,
-    "stop" : 1613823443326,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fba347bb54c2ac",
-  "name" : "locate controller.action , order : `GET`|`POST`|`DELETE`|`PATCH`|...",
-  "time" : {
-    "start" : 1613823443190,
-    "stop" : 1613823443210,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "2134614c75588f7a",
-  "name" : "by `OpenapiRouter.Start()` , use `Router.IRouterOptions`",
-  "time" : {
-    "start" : 1613823442337,
-    "stop" : 1613823442358,
-    "duration" : 21
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "4b6d9a53151ffbc5",
-  "name" : "locate controller.action , order : `ALL`",
-  "time" : {
-    "start" : 1613823443211,
-    "stop" : 1613823443232,
-    "duration" : 21
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f8127d5e1b6c0b73",
-  "name" : "locate controller.action , has `x-controller`, has `tags[0]`",
-  "time" : {
-    "start" : 1613823443157,
-    "stop" : 1613823443173,
-    "duration" : 16
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "69d850f08cf3574e",
-  "name" : "valid.request : no `req.contentType` required",
-  "time" : {
-    "start" : 1613823442706,
-    "stop" : 1613823442744,
-    "duration" : 38
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58559a4f6ac6f800",
-  "name" : "remove `proxyAction`",
-  "time" : {
-    "start" : 1613823442464,
-    "stop" : 1613823442495,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "890eefedb1af6e44",
-  "name" : "valid.request : required `query`",
-  "time" : {
-    "start" : 1613823442991,
-    "stop" : 1613823443024,
-    "duration" : 33
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7085d3759644ab00",
-  "name" : "valid.response : `response.body` valid",
-  "time" : {
-    "start" : 1613823443283,
-    "stop" : 1613823443302,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b29f939aac6bffa3",
-  "name" : "locate controller.action , no `x-controller`, has `tags[0]`",
-  "time" : {
-    "start" : 1613823443139,
-    "stop" : 1613823443156,
-    "duration" : 17
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3e95b196a714c28e",
-  "name" : "valid.request : no `req.contentType` required",
-  "time" : {
-    "start" : 1613823442809,
-    "stop" : 1613823442837,
-    "duration" : 28
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ac4a575fd5a675a",
-  "name" : "by `new OpenapiRouter()` , one doc-file",
-  "time" : {
-    "start" : 1613823442119,
-    "stop" : 1613823442166,
-    "duration" : 47
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "d19e626200caf8fd",
-  "name" : "valid.request : `content-type` required",
-  "time" : {
-    "start" : 1613823442775,
-    "stop" : 1613823442804,
-    "duration" : 29
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d25261a8a1f84900",
-  "name" : "valid.response : `response.header` optional, valid",
-  "time" : {
-    "start" : 1613823443436,
-    "stop" : 1613823443456,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9bb5c562ec119001",
-  "name" : "valid.response : no `response.header` required",
-  "time" : {
-    "start" : 1613823443406,
-    "stop" : 1613823443433,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3804f01bfce194e8",
-  "name" : "valid.response : `response.body` valid",
-  "time" : {
-    "start" : 1613823443359,
-    "stop" : 1613823443380,
-    "duration" : 21
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f82767a73aa1bc26",
-  "name" : "valid.response : `response.header` optional, invalid",
-  "time" : {
-    "start" : 1613823443458,
-    "stop" : 1613823443480,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bfa3f5b2fedd2fe",
-  "name" : "valid.request : optional `header`",
-  "time" : {
-    "start" : 1613823442963,
-    "stop" : 1613823442990,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9163a28a4ac22ad5",
-  "name" : "valid.response : `response.header` required, valid",
-  "time" : {
-    "start" : 1613823443481,
-    "stop" : 1613823443500,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1772ee4ea4dd1eb1",
-  "name" : "valid.request : optional `body`",
-  "time" : {
-    "start" : 1613823442668,
-    "stop" : 1613823442701,
-    "duration" : 33
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c56ebdf01ffaec6a",
-  "name" : "by `new OpenapiRouter()` , scan dir",
-  "time" : {
-    "start" : 1613823442167,
-    "stop" : 1613823442336,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "fee13763df29ad0",
-  "name" : "valid.request : `content-type` required",
-  "time" : {
-    "start" : 1613823442868,
-    "stop" : 1613823442895,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1626d04c6025e401",
-  "name" : "set `proxyAction` by config",
-  "time" : {
-    "start" : 1613823442412,
-    "stop" : 1613823442430,
-    "duration" : 18
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53d61e9da35cd648",
-  "name" : "valid.response : `response.header` required, invalid",
-  "time" : {
-    "start" : 1613823443501,
-    "stop" : 1613823443521,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f390fa7b8696c3e7",
-  "name" : "valid.request : required `body`",
-  "time" : {
-    "start" : 1613823442499,
-    "stop" : 1613823442565,
-    "duration" : 66
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf32378a0b2b9e8a",
-  "name" : "valid.response : no `response.body` schema",
-  "time" : {
-    "start" : 1613823443335,
-    "stop" : 1613823443357,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "521b3f13deb65b27",
-  "name" : "valid.request : `content-type` optional",
-  "time" : {
-    "start" : 1613823442745,
-    "stop" : 1613823442773,
-    "duration" : 28
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21a75a9ad1e5f9a8",
-  "name" : "valid.request : optional `query`",
-  "time" : {
-    "start" : 1613823443026,
-    "stop" : 1613823443053,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bbf080b911de4d93",
-  "name" : "valid.response : no `response.body` schema",
-  "time" : {
-    "start" : 1613823443258,
-    "stop" : 1613823443282,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87becfd986fce4ca",
-  "name" : "valid.request : optional `body`",
-  "time" : {
-    "start" : 1613823442567,
-    "stop" : 1613823442605,
-    "duration" : 38
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2d5d2f41d7d4167",
-  "name" : "locate controller.action , order : `none`",
-  "time" : {
-    "start" : 1613823443234,
-    "stop" : 1613823443253,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c595b1393cd8996b",
-  "name" : "valid.request : optional `cookie`",
-  "time" : {
-    "start" : 1613823443085,
-    "stop" : 1613823443115,
-    "duration" : 30
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "838e738a30c42106",
-  "name" : "locate controller.action , no `x-controller`, no `tags` => `default`",
-  "time" : {
-    "start" : 1613823443120,
-    "stop" : 1613823443138,
-    "duration" : 18
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "1dc6d79cdf62d15b",
-  "name" : "set `proxyAction` by code",
-  "time" : {
-    "start" : 1613823442432,
-    "stop" : 1613823442463,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5921ab8664627a3f",
-  "name" : "valid.request : required `header`",
-  "time" : {
-    "start" : 1613823442928,
-    "stop" : 1613823442962,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0b8c2c6ab225f80",
-  "name" : "by `OpenapiRouter.Start()` , mix",
-  "time" : {
-    "start" : 1613823442359,
-    "stop" : 1613823442408,
-    "duration" : 49
-  },
-  "status" : "passed",
-  "severity" : "blocker"
 } ]
