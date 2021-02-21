@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:49747/valid/request/path/0.6535788316/0.872",
+  "path": "/valid/request/path/0.6535788316/0.872",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:49747",
+    "accept-encoding": "gzip, deflate"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\actoinNameTesting.ts",
+    "x-openapi-test-response-header-request-schema": "{\"tags\":[\"actoinNameTesting\"],\"description\":\"action name testing\",\"responses\":{\"default\":{\"description\":\"default\"}},\"x-oas-ver\":3}",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "19",
+    "x-openapi-test-response-header-response-body-status": "415",
+    "x-openapi-test-response-header-response-header-status": "200",
+    "date": "Sun, 21 Feb 2021 18:30:55 GMT",
+    "connection": "close"
+  }
+}
