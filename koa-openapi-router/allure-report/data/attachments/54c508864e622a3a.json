@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:63387/valid/response/header",
+  "path": "/valid/response/header",
+  "method": "PUT",
+  "headers": {
+    "host": "127.0.0.1:63387",
+    "accept-encoding": "gzip, deflate"
+  }
+}

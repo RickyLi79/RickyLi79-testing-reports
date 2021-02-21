@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:63384/valid/response/header",
+  "path": "/valid/response/header",
+  "method": "DELETE",
+  "headers": {
+    "host": "127.0.0.1:63384",
+    "accept-encoding": "gzip, deflate"
+  }
+}

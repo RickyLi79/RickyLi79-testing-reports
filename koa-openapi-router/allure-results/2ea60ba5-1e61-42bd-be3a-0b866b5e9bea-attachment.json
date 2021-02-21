@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:63320/valid/request/query?q1=any",
+  "path": "/valid/request/query?q1=any",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:63320",
+    "accept-encoding": "gzip, deflate"
+  }
+}

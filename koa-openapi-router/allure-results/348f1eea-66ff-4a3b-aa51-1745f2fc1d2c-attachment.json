@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:63300/valid/request/path/0.165/0.230/abc",
+  "path": "/valid/request/path/0.165/0.230/abc",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:63300",
+    "accept-encoding": "gzip, deflate"
+  }
+}

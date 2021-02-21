@@ -1,5 +1,5 @@
 [ {
-  "values" : [ "1.0.1" ],
+  "values" : [ "1.0.4" ],
   "name" : "project : egg-openapi-router"
 }, {
   "values" : [ "v1.1.5" ],

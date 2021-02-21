@@ -2,65 +2,65 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "controller, 200",
-    "uid" : "406d513e6905be63",
+    "name" : "controller, 415",
+    "uid" : "554160e14bd5e98a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1613847658684,
-      "stop" : 1613847658701,
-      "duration" : 17
+      "start" : 1613913863792,
+      "stop" : 1613913863797,
+      "duration" : 5
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "egg default",
-    "uid" : "da5cb910e9141b2",
+    "uid" : "5e09ab9e0a48c6ce",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1613847658659,
-      "stop" : 1613847658682,
-      "duration" : 23
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "proxyAction",
-    "uid" : "1e8529aa9ba4b790",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1613847658755,
-      "stop" : 1613847658772,
-      "duration" : 17
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "controller, 415",
-    "uid" : "10a06438bef5b4c5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1613847658703,
-      "stop" : 1613847658718,
-      "duration" : 15
+      "start" : 1613913863760,
+      "stop" : 1613913863780,
+      "duration" : 20
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "controller, 200",
-    "uid" : "b558c74b69ce929",
+    "uid" : "7afe10fcdd1208c7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1613847658748,
-      "stop" : 1613847658754,
+      "start" : 1613913863781,
+      "stop" : 1613913863790,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "proxyAction",
+    "uid" : "af5f338ed568a85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613913863829,
+      "stop" : 1613913863846,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "controller, 200",
+    "uid" : "f0e843a7bca85c73",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613913863821,
+      "stop" : 1613913863827,
       "duration" : 6
     },
     "flaky" : false,
@@ -68,13 +68,13 @@
     "parameters" : [ ]
   }, {
     "name" : "controller, 422",
-    "uid" : "ad2fb6a06a6a0088",
+    "uid" : "e6c12ed03acec314",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1613847658720,
-      "stop" : 1613847658746,
-      "duration" : 26
+      "start" : 1613913863798,
+      "stop" : 1613913863820,
+      "duration" : 22
     },
     "flaky" : false,
     "newFailed" : false,

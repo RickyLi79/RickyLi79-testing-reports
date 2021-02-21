@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\tagX.ts",
+    "x-openapi-test-response-header-request-schema": "{\"tags\":[\"tagX\"],\"x-controller\":\"tag1\",\"description\":\"has `x-controller, `has `tags[0]`\",\"responses\":{\"default\":{\"description\":\"default\"}},\"x-oas-ver\":3}",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "14",
+    "x-openapi-test-response-header-response-body-status": "415",
+    "x-openapi-test-response-header-response-header-status": "200",
+    "date": "Sun, 21 Feb 2021 13:21:01 GMT",
+    "connection": "close"
+  }
+}
