@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:60097/myApi/no/such/action/api1",
+  "path": "/myApi/no/such/action/api1",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:60097",
+    "accept-encoding": "gzip, deflate"
+  }
+}
