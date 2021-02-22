@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:61537/valid/request/body",
+  "path": "/valid/request/body",
+  "method": "PATCH",
+  "headers": {
+    "host": "127.0.0.1:61537",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 45
+  },
+  "body": {
+    "time": "2021-02-22T19:59:55.643Z",
+    "value": 1
+  }
+}

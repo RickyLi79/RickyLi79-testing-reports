@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:61636/path3/of/api1",
+  "path": "/path3/of/api1",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:61636",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 10
+  },
+  "body": {
+    "num": 70
+  }
+}
