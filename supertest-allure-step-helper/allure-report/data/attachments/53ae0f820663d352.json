@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Wed, 24 Feb 2021 17:28:15 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "vary": "X-PJAX, Accept-Encoding, Accept, X-Requested-With",
+    "cache-control": "no-cache",
+    "set-cookie": [
+      "_gh_sess=TgFoKq3J8mlnU5N34Z1hdnyvL9b8PUOIZyxynqPijxPvoLm3SWDHTupG7hGV8TjJcCakhM1FhfjT63IZZv4TCVGhK4dZlaVPlIzWnlibia1ZOOJtfC9HzPXNJz%2FgbYQVY2e6IY48ukBcSLeT8egDrP9dVGC%2FcPjWel2T3D4LnrTuHemSQ0OKKroxfp%2FFpMF7vHVYA9SwywLV%2FqoQ6SUGGcY6Iapk5r7RacHz%2BSvzBSGlr5n4%2BHgHKrXa9mSwlCFKfNOR6mY%2BBv7B%2FACpCY3yUxY8V4vnETMuJl%2F3kVXMtqHNz5TGh6IppP%2B26R8yX2by3r%2BLnx0BFdQVmMTahz02gi4GcQO%2BbeorHoSTizN5s7XrVpDLKWTCsH9KHYq4MBH%2BU83GyPxEe538WhifNxtW6rBXnl%2BvFS5YD8qF%2B0pbwsc61pmp%2Bj9FW68AzAZY%2B04K%2Bzz6DXxmmmuCNAH%2Bopp8fdGtsXwoourF1%2F8BbHP5BGzFekTBcsTjjQ%2BKpf1drn1iW0kbOWagUGa%2BS5bQujCevp5inokEqL3lvBf0a1UYs5rfoI5aAIAvbAEUJ9pcIvmHNMbCeIDTPu95wj5Xu%2FarNYcJuQ23oQc9QqnmsbXhH%2ByQMBhczmJ4X2T%2FSa9LkEvkMa1DMgUm7CVay8nY%2BffU5kQ%2FAmdFH6B5Sxw%2BKqVJOGCZipZ%2BkB0Yd2946r8fqQFQf%2FPRzO%2Fbt5kS6lX235z6DM8G9ZAgpkV%2BfAnkX8phbLgzHIH4AZ2W67jrrBhIye78GeWUmQuFzT8G1MOkL6srVKEzvr9dec%2FV0WHLva4Lnx0RFH2HXFWj3BnJ%2FcDIpX8nAQaTI%2BEO9PM%3D--zo70B3D9Y43w4C8F--5qLqeMGJwCnkZpn0y7P3KQ%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js",
+    "content-encoding": "gzip",
+    "x-github-request-id": "2A04:14B4:262580:29E210:60368CAF",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

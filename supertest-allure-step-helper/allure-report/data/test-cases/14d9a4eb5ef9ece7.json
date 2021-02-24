@@ -1,0 +1,250 @@
+{
+  "uid" : "14d9a4eb5ef9ece7",
+  "name" : "expect `broken` at curl",
+  "fullName" : "expect `broken` at curl",
+  "historyId" : "ffcfe36424138313a776982247513845",
+  "time" : {
+    "start" : 1614187695303,
+    "stop" : 1614187695664,
+    "duration" : 361
+  },
+  "status" : "broken",
+  "statusMessage" : "expected 200 \"OK\", got 403 \"Forbidden\"",
+  "statusTrace" : "Error: expected 200 \"OK\", got 403 \"Forbidden\"\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:190:33)\n    at TestSuite.test4 (allure.test\\example.allure.ts:71:8)\n    at Context.test4 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:461:21)\n----\n    at Test._assertStatus (node_modules\\supertest\\lib\\test.js:296:12)\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:202:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:902:3)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at IncomingMessage.EventEmitter.emit (domain.js:467:12)\n    at endReadableNT (internal/streams/readable.js:1327:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "expected 200 \"OK\", got 403 \"Forbidden\"",
+    "statusTrace" : "Error: expected 200 \"OK\", got 403 \"Forbidden\"\n    at Proxy.<anonymous> (helpers\\AllureStepProxyHandler.ts:190:33)\n    at TestSuite.test4 (allure.test\\example.allure.ts:71:8)\n    at Context.test4 (node_modules\\@testdeck\\core\\index.ts:180:27)\n    at processImmediate (internal/timers.js:461:21)\n----\n    at Test._assertStatus (node_modules\\supertest\\lib\\test.js:296:12)\n    at D:\\git\\supertest-allure-step-helper\\node_modules\\supertest\\lib\\test.js:80:15\n    at re._asserts.<computed> (helpers\\AllureStepProxyHandler.ts:202:25)\n    at Test._assertFunction (node_modules\\supertest\\lib\\test.js:311:11)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:201:21)\n    at localAssert (node_modules\\supertest\\lib\\test.js:159:12)\n    at fn (node_modules\\supertest\\lib\\test.js:156:5)\n    at Test.callback (node_modules\\superagent\\src\\node\\index.js:902:3)\n    at IncomingMessage.<anonymous> (node_modules\\superagent\\src\\node\\index.js:1130:18)\n    at IncomingMessage.EventEmitter.emit (domain.js:467:12)\n    at endReadableNT (internal/streams/readable.js:1327:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+    "steps" : [ {
+      "name" : "supertest.get(\"/RickyLi79\").query({\"tab\":\"re...:\"public\"}).--EXPECT(200)--",
+      "time" : {
+        "start" : 1614187695305,
+        "stop" : 1614187695662,
+        "duration" : 357
+      },
+      "status" : "broken",
+      "steps" : [ {
+        "name" : "supertest.get(\"/RickyLi79\")",
+        "time" : {
+          "start" : 1614187695662,
+          "stop" : 1614187695662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : ".query({\"tab\":\"repositories\",\"type\":\"public\"})",
+        "time" : {
+          "start" : 1614187695662,
+          "stop" : 1614187695662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : ".expect(200)",
+        "time" : {
+          "start" : 1614187695662,
+          "stop" : 1614187695662,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "steps" : [ {
+          "name" : "expected 200 \"OK\", got 403 \"Forbidden\"",
+          "time" : {
+            "start" : 1614187695662,
+            "stop" : 1614187695662,
+            "duration" : 0
+          },
+          "status" : "broken",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e69577b86d641d46",
+        "name" : "Request",
+        "source" : "e69577b86d641d46.json",
+        "type" : "application/json",
+        "size" : 272
+      }, {
+        "uid" : "50c0d7e77537cd4d",
+        "name" : "Response",
+        "source" : "50c0d7e77537cd4d.json",
+        "type" : "application/json",
+        "size" : 183
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "supertest-allure-step-helper : expample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "14d9a4eb5ef9ece7.json",
+  "parameterValues" : [ ]
+}

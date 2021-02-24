@@ -1,5 +1,5 @@
 [ {
-  "values" : [ "0.2.6" ],
+  "values" : [ "0.2.8" ],
   "name" : "project : supertest-allure-step-helper"
 }, {
   "values" : [ "v0.1.2" ],

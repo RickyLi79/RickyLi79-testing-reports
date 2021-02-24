@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:53533/my/api/hello",
-  "path": "/my/api/hello",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:53533",
-    "accept-encoding": "gzip, deflate"
-  }
-}

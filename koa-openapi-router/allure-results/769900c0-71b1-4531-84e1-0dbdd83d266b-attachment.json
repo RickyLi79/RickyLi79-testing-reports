@@ -1,0 +1,27 @@
+{
+  "description": "`response.body` , invalid",
+  "x-controller": [
+    "valid.response.body"
+  ],
+  "responses": {
+    "200": {
+      "description": "ok",
+      "content": {
+        "application/json": {
+          "schema": {
+            "type": "object",
+            "properties": {
+              "ok": {
+                "enum": [
+                  2
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

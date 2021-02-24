@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-test-enabled": "true",
+    "x-openapi-test-response-header-action-muted": "true",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "9",
+    "date": "Wed, 24 Feb 2021 17:30:46 GMT",
+    "connection": "close"
+  }
+}

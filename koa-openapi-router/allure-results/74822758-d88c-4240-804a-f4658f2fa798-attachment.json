@@ -1,0 +1,21 @@
+{
+  "description": "optional query",
+  "x-controller": "valid.request",
+  "parameters": [
+    {
+      "name": "q1",
+      "in": "query",
+      "schema": {
+        "type": "string",
+        "maxLength": 5
+      }
+    }
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

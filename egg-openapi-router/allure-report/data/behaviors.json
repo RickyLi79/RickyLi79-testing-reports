@@ -5,13 +5,13 @@
     "name" : "egg-openapi-router",
     "children" : [ {
       "name" : "egg default",
-      "uid" : "ce83b9ca98f9192e",
+      "uid" : "847f220b4d06494b",
       "parentUid" : "d14c6f0ec8a6e6821e9d89b9d773d7e8",
       "status" : "passed",
       "time" : {
-        "start" : 1614173006102,
-        "stop" : 1614173006135,
-        "duration" : 33
+        "start" : 1614188241774,
+        "stop" : 1614188241799,
+        "duration" : 25
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,52 +20,52 @@
       "name" : "init",
       "children" : [ {
         "name" : "controller, 415",
-        "uid" : "dbc0f639be23bb17",
+        "uid" : "e4e2a638e5bbce9c",
         "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
         "status" : "passed",
         "time" : {
-          "start" : 1614173006153,
-          "stop" : 1614173006165,
-          "duration" : 12
+          "start" : 1614188241812,
+          "stop" : 1614188241818,
+          "duration" : 6
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "controller, 422",
-        "uid" : "516e2c3a6f90b1b1",
+        "uid" : "95f2f23dae28e8fc",
         "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
         "status" : "passed",
         "time" : {
-          "start" : 1614173006167,
-          "stop" : 1614173006204,
-          "duration" : 37
+          "start" : 1614188241820,
+          "stop" : 1614188241852,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "controller, 200",
-        "uid" : "bb6613ad45090287",
+        "uid" : "8d11926663507bf",
         "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
         "status" : "passed",
         "time" : {
-          "start" : 1614173006206,
-          "stop" : 1614173006268,
-          "duration" : 62
+          "start" : 1614188241857,
+          "stop" : 1614188241888,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "proxyAction",
-        "uid" : "c7ce67f442a413d0",
+        "uid" : "157bbfc825880eb6",
         "parentUid" : "59857623e56efc0ab4ad2bef5e38257b",
         "status" : "passed",
         "time" : {
-          "start" : 1614173006274,
-          "stop" : 1614173006305,
-          "duration" : 31
+          "start" : 1614188241890,
+          "stop" : 1614188241950,
+          "duration" : 60
         },
         "flaky" : false,
         "newFailed" : false,

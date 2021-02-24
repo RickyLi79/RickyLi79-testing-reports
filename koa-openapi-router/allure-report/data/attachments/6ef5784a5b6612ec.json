@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-test-enabled": "true",
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\valid.request",
+    "x-openapi-test-response-header-request-schema": "{\"description\":\"required cookie\",\"x-controller\":\"valid.request\",\"parameters\":[{\"name\":\"c1\",\"in\":\"cookie\",\"required\":true,\"schema\":{\"type\":\"string\",\"maxLength\":5}}],\"responses\":{\"default\":{\"description\":\"default\"}},\"x-oas-ver\":3,\"x-openapi-mark-operation-muted\":false}",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "39",
+    "date": "Wed, 24 Feb 2021 17:30:45 GMT",
+    "connection": "close"
+  }
+}

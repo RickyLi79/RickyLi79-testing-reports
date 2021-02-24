@@ -1,0 +1,22 @@
+{
+  "description": "required cookie",
+  "x-controller": "valid.request",
+  "parameters": [
+    {
+      "name": "c1",
+      "in": "cookie",
+      "required": true,
+      "schema": {
+        "type": "string",
+        "maxLength": 5
+      }
+    }
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

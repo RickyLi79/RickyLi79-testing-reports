@@ -1,50 +1,50 @@
 [ {
-  "uid" : "bba8cfb1e3abe06d",
+  "uid" : "afa0abb4e362efc1",
+  "name" : "expect `broken` at `expect`",
+  "time" : {
+    "start" : 1614187694488,
+    "stop" : 1614187694791,
+    "duration" : 303
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "851b1daa812543d2",
   "name" : "expect `broken` at `.expect(200)`",
   "time" : {
-    "start" : 1614152629578,
-    "stop" : 1614152630081,
-    "duration" : 503
+    "start" : 1614187694793,
+    "stop" : 1614187695301,
+    "duration" : 508
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "7270f4412228b921",
-  "name" : "expect `broken` at `.expectHeader()`",
-  "time" : {
-    "start" : 1614152630866,
-    "stop" : 1614152632591,
-    "duration" : 1725
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c42b1e6c1bfcfc7d",
+  "uid" : "8a5610004fa57985",
   "name" : "expect `success`",
   "time" : {
-    "start" : 1614152626551,
-    "stop" : 1614152627585,
-    "duration" : 1034
+    "start" : 1614187693537,
+    "stop" : 1614187694475,
+    "duration" : 938
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d553ce2a38e0611a",
-  "name" : "expect `broken` at curl",
+  "uid" : "952eeb11b360e47b",
+  "name" : "expect `broken` at `.expectHeader()`",
   "time" : {
-    "start" : 1614152630084,
-    "stop" : 1614152630865,
-    "duration" : 781
+    "start" : 1614187695665,
+    "stop" : 1614187696183,
+    "duration" : 518
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "c3a87dabe0c9b2f8",
-  "name" : "expect `broken` at `expect`",
+  "uid" : "14d9a4eb5ef9ece7",
+  "name" : "expect `broken` at curl",
   "time" : {
-    "start" : 1614152627596,
-    "stop" : 1614152629577,
-    "duration" : 1981
+    "start" : 1614187695303,
+    "stop" : 1614187695664,
+    "duration" : 361
   },
   "status" : "broken",
   "severity" : "normal"

@@ -1,0 +1,13 @@
+{
+  "x-controller": [
+    "tag1"
+  ],
+  "description": "has `x-controller`",
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

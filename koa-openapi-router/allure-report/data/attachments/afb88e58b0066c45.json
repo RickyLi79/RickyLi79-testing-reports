@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:53605/valid/request/query?q1=a%20too%20long%20text.%20length%20%3E%20maxLength",
-  "path": "/valid/request/query?q1=a%20too%20long%20text.%20length%20%3E%20maxLength",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:53605",
-    "accept-encoding": "gzip, deflate"
-  }
-}

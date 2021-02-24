@@ -1,0 +1,24 @@
+{
+  "description": "required query",
+  "x-controller": "valid.request",
+  "parameters": [
+    {
+      "name": "q1",
+      "in": "query",
+      "required": true,
+      "schema": {
+        "type": "string",
+        "maxLength": 5
+      }
+    }
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false,
+  "x-openapi-mark-accept-content-types": {},
+  "x-openapi-mark-quest-body-required": false
+}

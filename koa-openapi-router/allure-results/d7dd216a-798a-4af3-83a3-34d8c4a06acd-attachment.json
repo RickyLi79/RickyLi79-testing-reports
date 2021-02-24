@@ -1,0 +1,13 @@
+{
+  "description": "no `response.body` schema",
+  "x-controller": [
+    "valid.response.body"
+  ],
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

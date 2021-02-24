@@ -1,0 +1,25 @@
+{
+  "description": "`response.header` optional, valid",
+  "x-controller": [
+    "valid.response.header"
+  ],
+  "responses": {
+    "200": {
+      "description": "ok",
+      "headers": {
+        "x-reponse-header": {
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 5
+          }
+        }
+      }
+    },
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

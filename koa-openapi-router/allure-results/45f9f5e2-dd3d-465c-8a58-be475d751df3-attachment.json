@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "x-openapi-test-response-header-test-enabled": "true",
+    "x-openapi-test-response-header-controller-file": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller\\valid.request",
+    "x-openapi-test-response-header-request-schema": "{\"description\":\"required `body`\",\"x-controller\":\"valid.request\",\"requestBody\":{\"required\":true,\"content\":{\"application/json\":{\"schema\":{\"type\":\"object\",\"required\":[\"time\"],\"properties\":{\"value\":{\"type\":\"integer\",\"maximum\":5},\"time\":{\"type\":\"string\",\"format\":\"date-time\"}}}},\"text/plain\":{\"schema\":{\"type\":\"string\",\"maxLength\":5}},\"application/x-www-form-urlencoded\":{\"schema\":{\"type\":\"string\"}}}},\"responses\":{\"default\":{\"description\":\"default\"}},\"x-oas-ver\":3,\"x-openapi-mark-operation-muted\":false,\"x-openapi-mark-accept-content-types\":{\"application/json\":true,\"text/plain\":true,\"application/x-www-form-urlencoded\":true},\"x-openapi-mark-quest-body-required\":true}",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "37",
+    "date": "Wed, 24 Feb 2021 17:30:44 GMT",
+    "connection": "close"
+  }
+}

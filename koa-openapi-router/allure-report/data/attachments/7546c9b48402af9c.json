@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:50894/valid/response/body",
+  "path": "/valid/response/body",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:50894",
+    "accept-encoding": "gzip, deflate"
+  }
+}
