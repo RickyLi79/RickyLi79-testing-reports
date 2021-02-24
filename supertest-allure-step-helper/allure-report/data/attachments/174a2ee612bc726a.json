@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Wed, 24 Feb 2021 07:43:46 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "X-Requested-With, Accept-Encoding, Accept, X-Requested-With",
+    "etag": "W/\"f77df67c6c3d67e1acc1f1de41ddb5cd\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js",
+    "content-encoding": "gzip",
+    "set-cookie": [
+      "_gh_sess=zAG8En25Ug85Y9ZmD%2BmFkPsdYsESqAtsWonuipXwpF9Ams%2BDW64JySmFn26ahliQ29mAB%2BR4SG%2F6rxbXlhMcwn0YeBrk3yYJq5DFxgEkETAUc3zNtGAwAZBEK%2BTvUHXQ0F52dbf5OBmQlYfcIO%2BMYbnzlcH2xqTqr9ry6reWw57LwrLsG9KcifpgwgQ90crhQOBDdQ87EOzjBE4oB4P2P5enibpTLUOY27ZRYt%2BWf0ws6Z3CwaPi%2BOr6cInfKEOsiMmd8k%2B%2B3iI3g1IQhSAOxQ%3D%3D--1RkFTpNiV8d2gEVY--6FycBNDxw84qSYuFKz1Pzw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax",
+      "_octo=GH1.1.570192000.1614152627; Path=/; Domain=github.com; Expires=Thu, 24 Feb 2022 07:43:47 GMT; Secure; SameSite=Lax",
+      "logged_in=no; Path=/; Domain=github.com; Expires=Thu, 24 Feb 2022 07:43:47 GMT; HttpOnly; Secure; SameSite=Lax"
+    ],
+    "accept-ranges": "bytes",
+    "transfer-encoding": "chunked",
+    "x-github-request-id": "2A7A:100E:114AD7:133E6A:603603B3",
+    "connection": "close"
+  }
+}

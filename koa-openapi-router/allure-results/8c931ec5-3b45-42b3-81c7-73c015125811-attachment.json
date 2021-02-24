@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:61523/path0/of/api1",
-  "path": "/path0/of/api1",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:61523",
-    "accept-encoding": "gzip, deflate"
-  }
-}

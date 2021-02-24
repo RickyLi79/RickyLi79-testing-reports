@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Wed, 24 Feb 2021 06:24:11 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "vary": "X-PJAX, Accept-Encoding, Accept, X-Requested-With",
+    "cache-control": "no-cache",
+    "set-cookie": [
+      "_gh_sess=LN4pGGddUF4PSE7oBLNwFwUQAmMTw0dl90vLDf7EZ%2FA8ErAkphW380Bv%2FDkW8pf0ypf9PgV%2BCcPZuwTEEefdsM8w0RY9vRn2Lde5RJsxZv2ze3DzSMV%2F1jwAjaBECQFuIJHCECuSY3%2BoY45%2BTANUuiZF5xfCq9EFG3UEFNhiwurwYF9sgFZGTKpgFd%2F88RsbR3%2BW%2FdBAxexZqGu23gqNY0PsB%2FYtE8jIgNORRsrja0Z4TH2cxnljz674GLP82VfTU4a8H2rcV1IkdjIJb3OOW9PquxxLDqZLMccU65pz7k8C9pjE8JGh57mcIkrVe9sp8GxfaAf9zAZe%2BQ9F00Fh2V8t6ZlFkaMFvnqIY2Jq86QwWB229qGz%2FGiUc4%2BL7TU99eeS%2Bpyby9bXTJnqmkkj60chTTjP2w%2BRDvgwuQmtZbBxFicWslTWUskTWvoLFO0Zff26w%2B8L5YdG5IkqSrT6T46Oo1x6Jn7b7SOHmcxtFF8rulOE6FOnKyWM22JziwSB9s5zTpvL8rKDCrS0PzE36qquDsnPjxw%2FeHX15tf7If8JJ1bUO1LgKX2nnxd%2Bl7X4PUxqCERdnLjrziwapzZrmSiyxUyhYeQ0Md6LUtY6O594d4qLtyWuoi4oWQo7SGsqCCx%2BThMT4gNOI8HWu6EAPyuHGUl1%2F4kfVX%2F7JKGROHo1RbXNNKiMhQr8aJcri5wMa9Y8oRKBS%2B6QL0wj1CrKuiyRijNY%2BV00AHzadyvKzuid5ibiJZFGHTn%2FpNH%2B4zNmyL39lvOs8Sa5BCJNXdfg3FStCXyzzfUimDlxsm3gR2HfcKTWBweh%2Fjmvc%2BCnagcLQzCFQqRmmmg%3D--PWwYxbNPhx02zz7q--kfeOfVLg2VnmXq1uARdhWA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+    ],
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "expect-ct": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+    "content-security-policy": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js",
+    "content-encoding": "gzip",
+    "x-github-request-id": "2A3A:33A7:A5251F:B5B271:6035F10B",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

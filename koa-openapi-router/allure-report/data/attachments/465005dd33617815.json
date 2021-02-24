@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:61596/valid/request/header",
-  "path": "/valid/request/header",
-  "method": "POST",
-  "headers": {
-    "host": "127.0.0.1:61596",
-    "accept-encoding": "gzip, deflate"
-  }
-}

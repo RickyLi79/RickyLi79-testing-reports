@@ -7,13 +7,13 @@
       "name" : "expected 302 \"Found\", got 200 \"OK\"",
       "children" : [ {
         "name" : "expect `broken` at `expect`",
-        "uid" : "50ae2263fa05cfd1",
+        "uid" : "c3a87dabe0c9b2f8",
         "parentUid" : "b6503590c8dac9819d1f84c8ced66e74",
         "status" : "broken",
         "time" : {
-          "start" : 1613837737773,
-          "stop" : 1613837738908,
-          "duration" : 1135
+          "start" : 1614152627596,
+          "stop" : 1614152629577,
+          "duration" : 1981
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,26 +24,26 @@
       "name" : "expected 200 \"OK\", got 403 \"Forbidden\"",
       "children" : [ {
         "name" : "expect `broken` at `.expect(200)`",
-        "uid" : "f5b664a9e72d8fd9",
+        "uid" : "bba8cfb1e3abe06d",
         "parentUid" : "68ace3032ef221d50d1ddc66b5e287f9",
         "status" : "broken",
         "time" : {
-          "start" : 1613837738909,
-          "stop" : 1613837741837,
-          "duration" : 2928
+          "start" : 1614152629578,
+          "stop" : 1614152630081,
+          "duration" : 503
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "expect `broken` at curl",
-        "uid" : "f0d681984fe996",
+        "uid" : "d553ce2a38e0611a",
         "parentUid" : "68ace3032ef221d50d1ddc66b5e287f9",
         "status" : "broken",
         "time" : {
-          "start" : 1613837741841,
-          "stop" : 1613837744801,
-          "duration" : 2960
+          "start" : 1614152630084,
+          "stop" : 1614152630865,
+          "duration" : 781
         },
         "flaky" : false,
         "newFailed" : false,
@@ -54,13 +54,13 @@
       "name" : "expected header['server'] => 'xxx' , got 'GitHub.com'",
       "children" : [ {
         "name" : "expect `broken` at `.expectHeader()`",
-        "uid" : "8fa7c7e83cb68227",
+        "uid" : "7270f4412228b921",
         "parentUid" : "f0893f8a1a29d3463006c81b2815175e",
         "status" : "broken",
         "time" : {
-          "start" : 1613837744804,
-          "stop" : 1613837746604,
-          "duration" : 1800
+          "start" : 1614152630866,
+          "stop" : 1614152632591,
+          "duration" : 1725
         },
         "flaky" : false,
         "newFailed" : false,

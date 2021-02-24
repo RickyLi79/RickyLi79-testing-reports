@@ -1,0 +1,9 @@
+{
+  "url": "http://no.such.domain.host/no/such/page/RickyLi79?tab=repositories&type=public",
+  "path": "/no/such/page/RickyLi79?tab=repositories&type=public",
+  "method": "GET",
+  "headers": {
+    "host": "no.such.domain.host",
+    "accept-encoding": "gzip, deflate"
+  }
+}
