@@ -1,0 +1,10 @@
+{
+  "description": "path parameter",
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

@@ -1,0 +1,53 @@
+{
+  "description": "required `body`",
+  "tags": [
+    "valid.request"
+  ],
+  "requestBody": {
+    "required": true,
+    "content": {
+      "application/json": {
+        "schema": {
+          "type": "object",
+          "required": [
+            "time"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "maximum": 5
+            },
+            "time": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        }
+      },
+      "text/plain": {
+        "schema": {
+          "type": "string",
+          "maxLength": 5
+        }
+      },
+      "application/x-www-form-urlencoded": {
+        "schema": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false,
+  "x-openapi-mark-accept-content-types": {
+    "application/json": true,
+    "text/plain": true,
+    "application/x-www-form-urlencoded": true
+  },
+  "x-openapi-mark-quest-body-required": true
+}

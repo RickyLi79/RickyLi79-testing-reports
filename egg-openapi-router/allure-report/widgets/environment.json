@@ -1,8 +1,8 @@
 [ {
-  "values" : [ "1.0.4" ],
+  "values" : [ "1.0.8" ],
   "name" : "project : egg-openapi-router"
 }, {
-  "values" : [ "v1.1.5" ],
+  "values" : [ "v1.1.12" ],
   "name" : "dep : @rickyli79/koa-openapi-router"
 }, {
   "values" : [ "v2.29.1" ],

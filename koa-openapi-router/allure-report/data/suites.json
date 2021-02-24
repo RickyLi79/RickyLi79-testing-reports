@@ -1,0 +1,659 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "OpenapiRouter: create",
+    "children" : [ {
+      "name" : "by `OpenapiRouter.Start()` , use `Router.IRouterOptions`",
+      "uid" : "b858c24a56dcc370",
+      "parentUid" : "3d1a267f215298fae9c746169ca07387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173318787,
+        "stop" : 1614173318838,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "by `OpenapiRouter.Start()` , mix",
+      "uid" : "65407fd24ee1a28b",
+      "parentUid" : "3d1a267f215298fae9c746169ca07387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173318840,
+        "stop" : 1614173318940,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d1a267f215298fae9c746169ca07387"
+  }, {
+    "name" : "OpenapiRouter: proxyAction",
+    "children" : [ {
+      "name" : "set `proxyAction` by config",
+      "uid" : "e3a9af2e9ba21f89",
+      "parentUid" : "b3bca8402d2496a54affb105106e09d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173318949,
+        "stop" : 1614173318971,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "set `proxyAction` by code",
+      "uid" : "10d9b54a4ee2fe06",
+      "parentUid" : "b3bca8402d2496a54affb105106e09d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173318972,
+        "stop" : 1614173319010,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "remove `proxyAction`",
+      "uid" : "a246b969ce458bbd",
+      "parentUid" : "b3bca8402d2496a54affb105106e09d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319011,
+        "stop" : 1614173319044,
+        "duration" : 33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b3bca8402d2496a54affb105106e09d0"
+  }, {
+    "name" : "OpenapiRouter: routerPrefix",
+    "children" : [ {
+      "name" : "config.routerPrefix==='/v1'",
+      "uid" : "391be2d1bcbcec9b",
+      "parentUid" : "630910f6980ae088b1d7fb6af1702d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319053,
+        "stop" : 1614173319079,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "config.routerPrefix===''",
+      "uid" : "d5db617fe5c06f3",
+      "parentUid" : "630910f6980ae088b1d7fb6af1702d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319081,
+        "stop" : 1614173319104,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "630910f6980ae088b1d7fb6af1702d03"
+  }, {
+    "name" : "OpenapiRouter: valid.request.body - oas2",
+    "children" : [ {
+      "name" : "valid.request : required `body`",
+      "uid" : "3b5ee0c1821a125d",
+      "parentUid" : "57baf3cd4edf9d38dfc5e426d28e9377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319109,
+        "stop" : 1614173319164,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : optional `body`",
+      "uid" : "1c4e46d81e5dd86f",
+      "parentUid" : "57baf3cd4edf9d38dfc5e426d28e9377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319165,
+        "stop" : 1614173319201,
+        "duration" : 36
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "57baf3cd4edf9d38dfc5e426d28e9377"
+  }, {
+    "name" : "OpenapiRouter: valid.request.body - oas3",
+    "children" : [ {
+      "name" : "valid.request : required `body`",
+      "uid" : "43b6b79652cd714",
+      "parentUid" : "78954f1656474f29d1a4d5192c36f1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319206,
+        "stop" : 1614173319259,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : optional `body`",
+      "uid" : "b0eb5f1a417662a9",
+      "parentUid" : "78954f1656474f29d1a4d5192c36f1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319261,
+        "stop" : 1614173319299,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "78954f1656474f29d1a4d5192c36f1f9"
+  }, {
+    "name" : "OpenapiRouter: valid.request.contentType  oas2",
+    "children" : [ {
+      "name" : "valid.request : no `req.contentType` required",
+      "uid" : "4469086c37f7d896",
+      "parentUid" : "51c7956a942b975dc8bb4f4ad8ef4ccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319304,
+        "stop" : 1614173319337,
+        "duration" : 33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : `content-type` optional",
+      "uid" : "986813e083a66a01",
+      "parentUid" : "51c7956a942b975dc8bb4f4ad8ef4ccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319338,
+        "stop" : 1614173319364,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : `content-type` required",
+      "uid" : "f64fc2aca1f70c2f",
+      "parentUid" : "51c7956a942b975dc8bb4f4ad8ef4ccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319365,
+        "stop" : 1614173319393,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51c7956a942b975dc8bb4f4ad8ef4ccb"
+  }, {
+    "name" : "OpenapiRouter: valid.request.contentType  oas3",
+    "children" : [ {
+      "name" : "valid.request : no `req.contentType` required",
+      "uid" : "c438a1dae35e47a5",
+      "parentUid" : "71def1a25e8074bf810c47db01d3b30d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319397,
+        "stop" : 1614173319428,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : `content-type` optional",
+      "uid" : "26fc0032fa403234",
+      "parentUid" : "71def1a25e8074bf810c47db01d3b30d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319432,
+        "stop" : 1614173319461,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : `content-type` required",
+      "uid" : "d9d7cee1e913818",
+      "parentUid" : "71def1a25e8074bf810c47db01d3b30d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319462,
+        "stop" : 1614173319495,
+        "duration" : 33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "71def1a25e8074bf810c47db01d3b30d"
+  }, {
+    "name" : "OpenapiRouter: valid.request.para",
+    "children" : [ {
+      "name" : "valid.request : required `path`",
+      "uid" : "f4c90a5cb65ebd15",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319504,
+        "stop" : 1614173319541,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : required `header`",
+      "uid" : "b3cef50510e1d2ba",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319542,
+        "stop" : 1614173319577,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : optional `header`",
+      "uid" : "a24d04cdb9f08762",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319578,
+        "stop" : 1614173319613,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : required `query`",
+      "uid" : "88e50e2b08605522",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319614,
+        "stop" : 1614173319651,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : optional `query`",
+      "uid" : "8458f4d25d16e17c",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319652,
+        "stop" : 1614173319688,
+        "duration" : 36
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : required `cookie`",
+      "uid" : "dfa4e990f205a0c0",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319689,
+        "stop" : 1614173319724,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.request : optional `cookie`",
+      "uid" : "7c4ca1414885a2d0",
+      "parentUid" : "549f7d617f51843a2bacfc62b43f1e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319725,
+        "stop" : 1614173319759,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "549f7d617f51843a2bacfc62b43f1e4c"
+  }, {
+    "name" : "OpenapiRouter: valid.request.path",
+    "children" : [ {
+      "name" : "locate controller.action , no `x-controller`, no `tags` => `default`",
+      "uid" : "11ee33feac422cfa",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319769,
+        "stop" : 1614173319792,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , no `x-controller`, has `tags[0]`",
+      "uid" : "f6a6e95065eca37d",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319793,
+        "stop" : 1614173319811,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , has `x-controller`, has `tags[0]`",
+      "uid" : "5aeed85d6a459751",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319812,
+        "stop" : 1614173319830,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , path parameter",
+      "uid" : "940bad60ce4becf4",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319831,
+        "stop" : 1614173319851,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , order : `GET`|`POST`|`DELETE`|`PATCH`|...",
+      "uid" : "b813650761b48d2b",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319855,
+        "stop" : 1614173319876,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , order : `ALL`",
+      "uid" : "2d314e12f31c4f58",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319877,
+        "stop" : 1614173319894,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "locate controller.action , order : `none`",
+      "uid" : "7107c9ee87ea697b",
+      "parentUid" : "b3e426625648464b249378d0204e78a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319895,
+        "stop" : 1614173319912,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b3e426625648464b249378d0204e78a7"
+  }, {
+    "name" : "OpenapiRouter: valid.response.body  oas2",
+    "children" : [ {
+      "name" : "valid.response : no `response.body` schema",
+      "uid" : "78dd81271cf275fd",
+      "parentUid" : "a13d8799670ada707fe460f5b464f401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319921,
+        "stop" : 1614173319979,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.body` valid",
+      "uid" : "1946a260e84c4780",
+      "parentUid" : "a13d8799670ada707fe460f5b464f401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319980,
+        "stop" : 1614173319996,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.body` invalid",
+      "uid" : "6c870c414fc0ee92",
+      "parentUid" : "a13d8799670ada707fe460f5b464f401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173319997,
+        "stop" : 1614173320019,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a13d8799670ada707fe460f5b464f401"
+  }, {
+    "name" : "OpenapiRouter: valid.response.body  oas3",
+    "children" : [ {
+      "name" : "valid.response : no `response.body` schema",
+      "uid" : "dda6a17ff77e180d",
+      "parentUid" : "917b8f67d534dbcbe074febbba81ab53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320027,
+        "stop" : 1614173320047,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.body` valid",
+      "uid" : "c82250be19054f1f",
+      "parentUid" : "917b8f67d534dbcbe074febbba81ab53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320048,
+        "stop" : 1614173320069,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.body` invalid",
+      "uid" : "4624dd4ef58672cb",
+      "parentUid" : "917b8f67d534dbcbe074febbba81ab53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320071,
+        "stop" : 1614173320089,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "917b8f67d534dbcbe074febbba81ab53"
+  }, {
+    "name" : "OpenapiRouter: valid.response.header",
+    "children" : [ {
+      "name" : "valid.response : no `response.header` required",
+      "uid" : "639581b2fe504a",
+      "parentUid" : "4634bb717668f3baa0893d74a90108ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320099,
+        "stop" : 1614173320160,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.header` optional, valid",
+      "uid" : "595bf9d0cc06aa81",
+      "parentUid" : "4634bb717668f3baa0893d74a90108ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320161,
+        "stop" : 1614173320177,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.header` optional, invalid",
+      "uid" : "3c500084072e602d",
+      "parentUid" : "4634bb717668f3baa0893d74a90108ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320179,
+        "stop" : 1614173320196,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.header` required, valid",
+      "uid" : "6ab97d0599a57cfd",
+      "parentUid" : "4634bb717668f3baa0893d74a90108ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320197,
+        "stop" : 1614173320220,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "valid.response : `response.header` required, invalid",
+      "uid" : "98abdf9dfe6a6cd7",
+      "parentUid" : "4634bb717668f3baa0893d74a90108ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320221,
+        "stop" : 1614173320240,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4634bb717668f3baa0893d74a90108ed"
+  }, {
+    "name" : "OpenapiRouter: operation['x-mute-env']",
+    "children" : [ {
+      "name" : "operation['x-mute-env'] is Array",
+      "uid" : "1c9c464f80a05245",
+      "parentUid" : "54bd9b5af2bbb1b395f28e2a1699b306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320248,
+        "stop" : 1614173320279,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "operation['x-mute-env'] is string",
+      "uid" : "73bd637207159fa7",
+      "parentUid" : "54bd9b5af2bbb1b395f28e2a1699b306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320280,
+        "stop" : 1614173320296,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "operation['x-mute-env'] not match",
+      "uid" : "8b7343a24bc5d2bb",
+      "parentUid" : "54bd9b5af2bbb1b395f28e2a1699b306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320297,
+        "stop" : 1614173320317,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "54bd9b5af2bbb1b395f28e2a1699b306"
+  }, {
+    "name" : "OpenapiRouter: oasDoc['x-mute-env']",
+    "children" : [ {
+      "name" : "oasDoc['x-mute-env']",
+      "uid" : "819585668f54865e",
+      "parentUid" : "adb68108c4bb17095299d4785a997c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614173320326,
+        "stop" : 1614173320344,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "adb68108c4bb17095299d4785a997c49"
+  } ]
+}

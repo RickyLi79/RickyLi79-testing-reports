@@ -1,0 +1,710 @@
+{
+  "uid" : "a246b969ce458bbd",
+  "name" : "remove `proxyAction`",
+  "fullName" : "remove `proxyAction`",
+  "historyId" : "7d7b0824fdbfbaa5aaed07bce505e549",
+  "time" : {
+    "start" : 1614173319011,
+    "stop" : 1614173319044,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "mute OpenapiRouter.logger",
+      "time" : {
+        "start" : 1614173318948,
+        "stop" : 1614173318948,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "const defaultConfig",
+      "time" : {
+        "start" : 1614173318948,
+        "stop" : 1614173318949,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0680d053ab43dda",
+        "name" : "defaultConfig",
+        "source" : "d0680d053ab43dda.json",
+        "type" : "application/json",
+        "size" : 344
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "new Koa()",
+      "time" : {
+        "start" : 1614173319011,
+        "stop" : 1614173319013,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "set : toPath = '/path0/of/api1'",
+      "time" : {
+        "start" : 1614173319013,
+        "stop" : 1614173319013,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "supertest.get(\"/path0/of/api1\").expect(404)",
+      "time" : {
+        "start" : 1614173319014,
+        "stop" : 1614173319018,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "supertest.get(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319018,
+          "stop" : 1614173319018,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "--> request -> statusCode : 404",
+        "time" : {
+          "start" : 1614173319014,
+          "stop" : 1614173319018,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(404)",
+        "time" : {
+          "start" : 1614173319018,
+          "stop" : 1614173319018,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "2e68cf9b62b73ae5",
+        "name" : "Request",
+        "source" : "2e68cf9b62b73ae5.json",
+        "type" : "application/json",
+        "size" : 188
+      }, {
+        "uid" : "72b09960386561e0",
+        "name" : "Response",
+        "source" : "72b09960386561e0.json",
+        "type" : "application/json",
+        "size" : 169
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "OpenapiRouter.Start(), no `proxyAction`",
+      "time" : {
+        "start" : 1614173319020,
+        "stop" : 1614173319027,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "900bc3d4df851f6f",
+        "name" : "${baseDir}/docs\\create.oas3.json",
+        "source" : "900bc3d4df851f6f.json",
+        "type" : "application/json",
+        "size" : 2742
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "supertest.get(\"/path0/of/api1\").expect(200).expect(\"/path0/of/api1\")",
+      "time" : {
+        "start" : 1614173319027,
+        "stop" : 1614173319029,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "supertest.get(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319029,
+          "stop" : 1614173319029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "--> request -> statusCode : 200",
+        "time" : {
+          "start" : 1614173319027,
+          "stop" : 1614173319029,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(200)",
+        "time" : {
+          "start" : 1614173319029,
+          "stop" : 1614173319029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319029,
+          "stop" : 1614173319029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "7f48b24fb40e2a66",
+        "name" : "Request",
+        "source" : "7f48b24fb40e2a66.json",
+        "type" : "application/json",
+        "size" : 188
+      }, {
+        "uid" : "ab2861f460fb5abd",
+        "name" : "Response",
+        "source" : "ab2861f460fb5abd.json",
+        "type" : "application/json",
+        "size" : 693
+      }, {
+        "uid" : "3fd6e1e733231138",
+        "name" : "${baseDir}/controller\\default.ts",
+        "source" : "3fd6e1e733231138.txt",
+        "type" : "text/plain",
+        "size" : 470
+      }, {
+        "uid" : "d03f26dd9232ce53",
+        "name" : "Request Schema",
+        "source" : "d03f26dd9232ce53.json",
+        "type" : "application/json",
+        "size" : 167
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 4
+    }, {
+      "name" : "set `proxyAction`",
+      "time" : {
+        "start" : 1614173319032,
+        "stop" : 1614173319032,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "supertest.get(\"/path0/of/api1\").expect(305).expect(\"ok\").expectHeader(\"x-mark\", \"proxyAction\")",
+      "time" : {
+        "start" : 1614173319032,
+        "stop" : 1614173319035,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "supertest.get(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319035,
+          "stop" : 1614173319035,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "--> request -> statusCode : 305",
+        "time" : {
+          "start" : 1614173319032,
+          "stop" : 1614173319035,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(305)",
+        "time" : {
+          "start" : 1614173319035,
+          "stop" : 1614173319035,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(\"ok\")",
+        "time" : {
+          "start" : 1614173319035,
+          "stop" : 1614173319035,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expectHeader(\"x-mark\", \"proxyAction\")",
+        "time" : {
+          "start" : 1614173319035,
+          "stop" : 1614173319035,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "9c5e8d6f75595cd3",
+        "name" : "Request",
+        "source" : "9c5e8d6f75595cd3.json",
+        "type" : "application/json",
+        "size" : 188
+      }, {
+        "uid" : "5c39648f7dbe4f59",
+        "name" : "Response",
+        "source" : "5c39648f7dbe4f59.json",
+        "type" : "application/json",
+        "size" : 809
+      }, {
+        "uid" : "96966517cd1ed0c5",
+        "name" : "${baseDir}/controller\\default.ts",
+        "source" : "96966517cd1ed0c5.txt",
+        "type" : "text/plain",
+        "size" : 470
+      }, {
+        "uid" : "ae07a241816825a7",
+        "name" : "Request Schema",
+        "source" : "ae07a241816825a7.json",
+        "type" : "application/json",
+        "size" : 259
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 4
+    }, {
+      "name" : "remove `proxyAction`",
+      "time" : {
+        "start" : 1614173319038,
+        "stop" : 1614173319039,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "supertest.get(\"/path0/of/api1\").expect(200).expect(\"/path0/of/api1\")",
+      "time" : {
+        "start" : 1614173319039,
+        "stop" : 1614173319041,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "supertest.get(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319041,
+          "stop" : 1614173319041,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "--> request -> statusCode : 200",
+        "time" : {
+          "start" : 1614173319039,
+          "stop" : 1614173319041,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(200)",
+        "time" : {
+          "start" : 1614173319041,
+          "stop" : 1614173319041,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : ".expect(\"/path0/of/api1\")",
+        "time" : {
+          "start" : 1614173319041,
+          "stop" : 1614173319041,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "2a4ae973bec4cf86",
+        "name" : "Request",
+        "source" : "2a4ae973bec4cf86.json",
+        "type" : "application/json",
+        "size" : 188
+      }, {
+        "uid" : "dc81c021f478b742",
+        "name" : "Response",
+        "source" : "dc81c021f478b742.json",
+        "type" : "application/json",
+        "size" : 781
+      }, {
+        "uid" : "eb70597c647591ef",
+        "name" : "${baseDir}/controller\\default.ts",
+        "source" : "eb70597c647591ef.txt",
+        "type" : "text/plain",
+        "size" : 470
+      }, {
+        "uid" : "a36cabf2a2db7193",
+        "name" : "Request Schema",
+        "source" : "a36cabf2a2db7193.json",
+        "type" : "application/json",
+        "size" : 259
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 25,
+    "hasContent" : true,
+    "attachmentsCount" : 15
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "teardown class",
+      "time" : {
+        "start" : 1614173319046,
+        "stop" : 1614173319046,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "OpenapiRouter: proxyAction"
+  }, {
+    "name" : "epic",
+    "value" : "koa-openapi-router"
+  }, {
+    "name" : "story",
+    "value" : "OpenapiRouter: proxyAction"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a246b969ce458bbd.json",
+  "parameterValues" : [ ]
+}

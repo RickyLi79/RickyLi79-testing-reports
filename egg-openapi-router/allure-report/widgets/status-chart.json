@@ -1,50 +1,50 @@
 [ {
-  "uid" : "e6c12ed03acec314",
-  "name" : "controller, 422",
-  "time" : {
-    "start" : 1613913863798,
-    "stop" : 1613913863820,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "f0e843a7bca85c73",
-  "name" : "controller, 200",
-  "time" : {
-    "start" : 1613913863821,
-    "stop" : 1613913863827,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af5f338ed568a85",
+  "uid" : "c7ce67f442a413d0",
   "name" : "proxyAction",
   "time" : {
-    "start" : 1613913863829,
-    "stop" : 1613913863846,
-    "duration" : 17
+    "start" : 1614173006274,
+    "stop" : 1614173006305,
+    "duration" : 31
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "554160e14bd5e98a",
+  "uid" : "dbc0f639be23bb17",
   "name" : "controller, 415",
   "time" : {
-    "start" : 1613913863792,
-    "stop" : 1613913863797,
-    "duration" : 5
+    "start" : 1614173006153,
+    "stop" : 1614173006165,
+    "duration" : 12
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "5e09ab9e0a48c6ce",
+  "uid" : "516e2c3a6f90b1b1",
+  "name" : "controller, 422",
+  "time" : {
+    "start" : 1614173006167,
+    "stop" : 1614173006204,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ce83b9ca98f9192e",
   "name" : "egg default",
   "time" : {
-    "start" : 1613913863760,
-    "stop" : 1613913863780,
-    "duration" : 20
+    "start" : 1614173006102,
+    "stop" : 1614173006135,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb6613ad45090287",
+  "name" : "controller, 200",
+  "time" : {
+    "start" : 1614173006206,
+    "stop" : 1614173006268,
+    "duration" : 62
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,9 @@
+{
+  "responses": {
+    "200": {
+      "description": "ok"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}

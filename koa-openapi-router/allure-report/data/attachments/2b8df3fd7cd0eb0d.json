@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "actoinNameTesting"
+  ],
+  "description": "action name testing",
+  "requestBody": {
+    "required": true,
+    "content": {
+      "application/json": {
+        "schema": {
+          "type": "object",
+          "properties": {
+            "num": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "responses": {
+    "default": {
+      "description": "default"
+    }
+  },
+  "x-oas-ver": 3,
+  "x-openapi-mark-operation-muted": false
+}
