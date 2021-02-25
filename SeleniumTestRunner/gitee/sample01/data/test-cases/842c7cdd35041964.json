@@ -1,0 +1,555 @@
+{
+  "uid" : "842c7cdd35041964",
+  "name" : "查看本ENGINE自动化测试提交的数据，每步都截图",
+  "fullName" : "plans.gitee.test_gitee_guest.TestClass#test_00001",
+  "historyId" : "e7fc058a85cd4a217b772e9b7ae13443",
+  "time" : {
+    "start" : 1610883901593,
+    "stop" : 1610883913724,
+    "duration" : 12131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "[module] 初始化 & 结束",
+    "time" : {
+      "start" : 1610883884205,
+      "stop" : 1610883888036,
+      "duration" : 3831
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "--启动参数--",
+      "time" : {
+        "start" : 1610883884205,
+        "stop" : 1610883888036,
+        "duration" : 3831
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "设定浏览器类型: Chrome",
+        "time" : {
+          "start" : 1610883884205,
+          "stop" : 1610883884205,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设定隐性等待为默认值: 10秒",
+        "time" : {
+          "start" : 1610883884205,
+          "stop" : 1610883884205,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设定浏览器启动选项: 4项",
+        "time" : {
+          "start" : 1610883884205,
+          "stop" : 1610883884206,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "#启动就窗口最大化#--start-maximized",
+          "time" : {
+            "start" : 1610883884206,
+            "stop" : 1610883884206,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "#启动进入无痕模式#--incognito",
+          "time" : {
+            "start" : 1610883884206,
+            "stop" : 1610883884206,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "#禁用图像#--disable-images",
+          "time" : {
+            "start" : 1610883884206,
+            "stop" : 1610883884206,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "#页面加载策略#pageLoadStrategy=eager",
+          "time" : {
+            "start" : 1610883884206,
+            "stop" : 1610883884206,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "设定Faker本地语言: zh_CN",
+        "time" : {
+          "start" : 1610883884206,
+          "stop" : 1610883884326,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设定截图策略: before=0 , after=2",
+        "time" : {
+          "start" : 1610883884326,
+          "stop" : 1610883884326,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "启动浏览器",
+        "time" : {
+          "start" : 1610883884326,
+          "stop" : 1610883888036,
+          "duration" : 3710
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1610883884051,
+      "stop" : 1610883884205,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "执行参数",
+    "time" : {
+      "start" : 1610883901591,
+      "stop" : 1610883901592,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d70f968b7a6b918a",
+      "name" : "执行参数",
+      "source" : "d70f968b7a6b918a.json",
+      "type" : "application/json",
+      "size" : 1250
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入项目首页",
+      "time" : {
+        "start" : 1610883901593,
+        "stop" : 1610883902764,
+        "duration" : 1171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa210c453071630b",
+        "name" : "<Step After>",
+        "source" : "fa210c453071630b.png",
+        "type" : "image/png",
+        "size" : 184699
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "进入Issues分页",
+      "time" : {
+        "start" : 1610883902764,
+        "stop" : 1610883904027,
+        "duration" : 1263
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "定位元素 : by=css selector , path=body > div.site-content > div.git-project-header > div.git-project-nav > div > div > a:nth-child(2)",
+        "time" : {
+          "start" : 1610883902765,
+          "stop" : 1610883902773,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "单击元素",
+        "time" : {
+          "start" : 1610883902778,
+          "stop" : 1610883903619,
+          "duration" : 841
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "cb98ea44208d2d38",
+        "name" : "<Step After>",
+        "source" : "cb98ea44208d2d38.png",
+        "type" : "image/png",
+        "size" : 157893
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "输入搜索条件并ENTER: SeleniumTestRunner自动化提交的测试用数据统一放进这里",
+      "time" : {
+        "start" : 1610883904028,
+        "stop" : 1610883905232,
+        "duration" : 1204
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "定位元素 : by=xpath , path=//*[@id=\"git-issues-search\"]/div[2]/input",
+        "time" : {
+          "start" : 1610883904028,
+          "stop" : 1610883904038,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "清空已有内容",
+        "time" : {
+          "start" : 1610883904044,
+          "stop" : 1610883904068,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入值 : SeleniumTestRunner自动化提交的测试用数据统一放进这里",
+        "time" : {
+          "start" : 1610883904069,
+          "stop" : 1610883904826,
+          "duration" : 757
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "3770c38193ccc5f",
+        "name" : "<Step After>",
+        "source" : "3770c38193ccc5f.png",
+        "type" : "image/png",
+        "size" : 159605
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "查看[所有]的搜索结果",
+      "time" : {
+        "start" : 1610883905232,
+        "stop" : 1610883906303,
+        "duration" : 1071
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "定位元素 : by=xpath , path=//*[@id=\"git-issues-filters\"]/a[1]",
+        "time" : {
+          "start" : 1610883905232,
+          "stop" : 1610883905242,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "单击元素",
+        "time" : {
+          "start" : 1610883905247,
+          "stop" : 1610883905896,
+          "duration" : 649
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "41d7b50239a10483",
+        "name" : "<Step After>",
+        "source" : "41d7b50239a10483.png",
+        "type" : "image/png",
+        "size" : 162959
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "单击第一条记录，进入目标Issuse",
+      "time" : {
+        "start" : 1610883906304,
+        "stop" : 1610883910724,
+        "duration" : 4420
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "定位元素 : by=css selector , path=#git-issues > div > div.issue-info > div.issue-title > h3 > a",
+        "time" : {
+          "start" : 1610883906304,
+          "stop" : 1610883906313,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "单击元素",
+        "time" : {
+          "start" : 1610883906318,
+          "stop" : 1610883910327,
+          "duration" : 4009
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "67af105ad8761190",
+        "name" : "<Step After>",
+        "source" : "67af105ad8761190.png",
+        "type" : "image/png",
+        "size" : 262932
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "发呆3秒",
+      "time" : {
+        "start" : 1610883910724,
+        "stop" : 1610883913724,
+        "duration" : 3000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "[module] 初始化 & 结束::0",
+    "time" : {
+      "start" : 1610883913728,
+      "stop" : 1610883915912,
+      "duration" : 2184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Gitee用户WEB端 未登陆状态"
+  }, {
+    "name" : "suite",
+    "value" : "gitee_guest.json"
+  }, {
+    "name" : "parentSuite",
+    "value" : "plans.gitee"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8C9E02QR"
+  }, {
+    "name" : "thread",
+    "value" : "24736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "plans.gitee.test_gitee_guest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "842c7cdd35041964.json",
+  "parameterValues" : [ ]
+}

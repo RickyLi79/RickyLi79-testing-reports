@@ -1,0 +1,31 @@
+[ {
+  "uid" : "842c7cdd35041964",
+  "name" : "查看本ENGINE自动化测试提交的数据，每步都截图",
+  "time" : {
+    "start" : 1610883901593,
+    "stop" : 1610883913724,
+    "duration" : 12131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "173a09035f6a7d88",
+  "name" : "进入GITEE项目Ricky/SeleniumTestRunner的自动化提交专用Issue页",
+  "time" : {
+    "start" : 1610883927362,
+    "stop" : 1610883935538,
+    "duration" : 8176
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b3d9ee99d0985347",
+  "name" : "进入Gitee开源项目的搜索结果随机选择一个项目，对其项目首页截图",
+  "time" : {
+    "start" : 1610883888043,
+    "stop" : 1610883901572,
+    "duration" : 13529
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]

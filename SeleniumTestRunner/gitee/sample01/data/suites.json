@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "plans.gitee",
+    "children" : [ {
+      "name" : "gitee_guest.json",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "进入Gitee开源项目的搜索结果随机选择一个项目，对其项目首页截图",
+          "uid" : "b3d9ee99d0985347",
+          "parentUid" : "ebd27c589354d17283288be3d4262a6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610883888043,
+            "stop" : 1610883901572,
+            "duration" : 13529
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查看本ENGINE自动化测试提交的数据，每步都截图",
+          "uid" : "842c7cdd35041964",
+          "parentUid" : "ebd27c589354d17283288be3d4262a6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610883901593,
+            "stop" : 1610883913724,
+            "duration" : 12131
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ebd27c589354d17283288be3d4262a6c"
+      } ],
+      "uid" : "991b92a8086a7d9334a36125adc9cc75"
+    }, {
+      "name" : "gitee_user.json",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "进入GITEE项目Ricky/SeleniumTestRunner的自动化提交专用Issue页",
+          "uid" : "173a09035f6a7d88",
+          "parentUid" : "290cf3ec753ea42d706bc1267e8baf89",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610883927362,
+            "stop" : 1610883935538,
+            "duration" : 8176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "290cf3ec753ea42d706bc1267e8baf89"
+      } ],
+      "uid" : "449c1ac14f0a3796673992bb5a4d0094"
+    } ],
+    "uid" : "9a0dbfbd25df7e4056815a5183d02a37"
+  } ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 17 19:45:01 CST 2021","Sun Jan 17 19:45:13 CST 2021","12131","plans.gitee","gitee_guest.json","TestClass","","","查看本ENGINE自动化测试提交的数据，每步都截图",""
+"passed","Sun Jan 17 19:45:27 CST 2021","Sun Jan 17 19:45:35 CST 2021","8176","plans.gitee","gitee_user.json","TestClass","","","进入GITEE项目Ricky/SeleniumTestRunner的自动化提交专用Issue页",""
+"passed","Sun Jan 17 19:44:48 CST 2021","Sun Jan 17 19:45:01 CST 2021","13529","plans.gitee","gitee_guest.json","TestClass","","","进入Gitee开源项目的搜索结果随机选择一个项目，对其项目首页截图",""
