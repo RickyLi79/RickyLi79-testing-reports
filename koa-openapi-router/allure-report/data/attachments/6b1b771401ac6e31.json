@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:50794/valid/request/body",
-  "path": "/valid/request/body",
-  "method": "PATCH",
-  "headers": {
-    "host": "127.0.0.1:50794",
-    "accept-encoding": "gzip, deflate"
-  }
-}

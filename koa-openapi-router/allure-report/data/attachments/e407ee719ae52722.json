@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:63123/valid/request/body",
+  "path": "/valid/request/body",
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:63123",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 45
+  },
+  "body": {
+    "time": "2021-02-26T13:51:56.724Z",
+    "value": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:63105/v1/my/api/hello",
+  "path": "/v1/my/api/hello",
+  "method": "GET",
+  "headers": {
+    "host": "127.0.0.1:63105",
+    "accept-encoding": "gzip, deflate"
+  }
+}

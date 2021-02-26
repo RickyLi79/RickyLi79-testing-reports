@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:50918/hello",
-  "path": "/hello",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:50918",
-    "accept-encoding": "gzip, deflate"
-  }
-}

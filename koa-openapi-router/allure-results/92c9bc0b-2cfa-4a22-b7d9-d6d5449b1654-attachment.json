@@ -1,0 +1,5 @@
+{
+  "routerPrefix": "/api",
+  "controllerDir": "D:\\git\\koa-openapi-router\\allure.test\\suite\\controller",
+  "docsDir": "D:\\git\\koa-openapi-router\\allure.test\\suite\\docs\\create.oas3.json"
+}

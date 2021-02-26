@@ -1,9 +1,0 @@
-{
-  "url": "http://127.0.0.1:50921/nihao",
-  "path": "/nihao",
-  "method": "GET",
-  "headers": {
-    "host": "127.0.0.1:50921",
-    "accept-encoding": "gzip, deflate"
-  }
-}
